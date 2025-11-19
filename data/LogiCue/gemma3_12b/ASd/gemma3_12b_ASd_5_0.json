@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'If the bill is paid, then the services will continue', can we infer 'If the bill is paid and the check bounces, then the services will continue'?",
+    "system_prompt": "When evaluating conditional statements, remember that real-world conditionals often have implicit background assumptions and normal conditions built in. Don't apply formal logical rules mechanically without considering whether additional conditions in the antecedent might contradict these implicit assumptions.\n\nAfter considering these factors, write 'Answer: ' followed by only 'yes' or 'no' and nothing else.",
+    "model": "gemma3:12b",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "no",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

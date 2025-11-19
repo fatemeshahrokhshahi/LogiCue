@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'If you scream, it will hurt my ears', can we infer 'If you scream and I am wearing earplugs, it will hurt my ears'?",
+    "system_prompt": "When evaluating conditional statements, remember that real-world conditionals often have implicit background assumptions and normal conditions built in. Don't apply formal logical rules mechanically without considering whether additional conditions in the antecedent might contradict these implicit assumptions.\n\nAfter considering these factors, write 'Answer: ' followed by only 'yes' or 'no' and nothing else.",
+    "model": "phi4:latest",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "The original statement \"If you scream, it will hurt my ears\" implies that under normal conditions, screaming causes the speaker's ears to be hurt. However, if the listener is wearing earplugs, this changes the situation by introducing a condition that could prevent the ears from being hurt.\n\nGiven this additional context, we cannot infer that the statement \"If you scream and I am wearing earplugs, it will hurt my ears\" holds true because the earplugs are likely to mitigate or eliminate the pain caused by screaming. Therefore, the implicit assumption of normal conditions (not wearing ear protection) is contradicted.\n\nAnswer: no",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

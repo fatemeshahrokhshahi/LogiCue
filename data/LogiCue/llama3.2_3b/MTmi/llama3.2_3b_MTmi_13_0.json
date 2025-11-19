@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'If the car was red, then the truck must have been blue' together with 'The truck might not have been blue', can we infer 'The car was not red'?",
+    "system_prompt": "When working with logical inferences, carefully distinguish between definitive statements and statements about possibility/uncertainty. For modus tollens (If P then Q, not Q, therefore not P) to be valid, you need a definitive negation of Q, not just uncertainty about Q.\n\nIf given 'If P then Q' and 'Q might not be true' (or 'possibly not Q'), you can only conclude 'P might not be true' - NOT 'P is definitely false.'\n\nBefore concluding any logical inference, check: Do I have definitive premises or only statements about possibility? Match your conclusion's certainty level to your premises' certainty level.\n\nApply this reasoning to the following question and answer with only 'yes' or 'no' - nothing else.",
+    "model": "llama3.2:3b",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "No",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

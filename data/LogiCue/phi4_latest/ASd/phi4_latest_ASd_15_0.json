@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'If I charge my phone, it will have power' can we infer 'If I charge my phone and it has a dead battery, it will have power'?",
+    "system_prompt": "When evaluating conditional statements, remember that real-world conditionals often have implicit background assumptions and normal conditions built in. Don't apply formal logical rules mechanically without considering whether additional conditions in the antecedent might contradict these implicit assumptions.\n\nAfter considering these factors, write 'Answer: ' followed by only 'yes' or 'no' and nothing else.",
+    "model": "phi4:latest",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "The original statement \"If I charge my phone, it will have power\" implicitly assumes that the phone is in a condition where charging it would result in having power. This typically means the phone's battery is not completely dead or there are no other issues preventing it from holding a charge.\n\nIn the modified statement \"If I charge my phone and it has a dead battery,\" the additional condition of having a \"dead battery\" introduces a scenario that might contradict the implicit assumption of the original statement. A completely dead battery could mean that charging won't immediately result in power, depending on how \"dead\" is defined (e.g., if it means no charge at all or just very low).\n\nTherefore, considering these factors, we cannot directly infer that charging a phone with a dead battery will result in having power without additional context.\n\nAnswer: no",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

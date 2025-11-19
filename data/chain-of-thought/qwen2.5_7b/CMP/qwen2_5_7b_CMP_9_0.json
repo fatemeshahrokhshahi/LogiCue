@@ -1,0 +1,14 @@
+{
+    "user_prompt": "Suppose that apples, bananas, and oranges are the most purchased fruits. According to grocery store data, it’s likely apples will be the top-selling fruit this year, followed closely by bananas, with oranges trailing distantly behind. These are by far the top-selling fruits, so if bananas aren’t the top seller, then if apples aren’t, oranges will be. Moreover, it’s likely apples will be top and hence bananas won’t be. Does it follow that it is likely that, if apples aren’t the top-selling fruit, oranges will be?",
+    "system_prompt": "In response to the following question, think step by step and explain your reasoning, starting your response with 'Explanation: '; then *after* explaining your reasoning, when you are ready to answer, simply write 'Answer: ' followed by 'yes' or 'no' and nothing else. Please make sure to format your response by first explaining your reasoning and then writing 'Answer:' followed by 'yes' or 'no' at the very end",
+    "model": "qwen2.5:7b",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "Explanation: Let's break down the statements to understand the logical flow.\n\n1. Apples are expected to be the top-selling fruit.\n2. Bananas are expected to be second in sales after apples.\n3. Oranges are trailing distantly behind and are considered by far the top-selling fruits among these three.\n\nThe key points here are:\n- If bananas aren't the top seller, then oranges will be (since they are the only other option left).\n- It's likely that apples will be the top seller, which implies that bananas won't be the top seller because of their close second position to apples.\n\nGiven this information, if apples aren’t the top-selling fruit, it means that either bananas or oranges could potentially be in first place. However, since we know from the initial statements that bananas are expected to be just behind apples and thus likely not at the top, the only remaining option for being the top seller would be oranges.\n\nAnswer: yes",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

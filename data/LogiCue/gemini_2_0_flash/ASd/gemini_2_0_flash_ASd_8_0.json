@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'If the package has shipped, then it will arrive today', can we infer 'If the package has shipped and it was misrouted, then it will arrive today'?",
+    "system_prompt": "When evaluating conditional statements, remember that real-world conditionals often have implicit background assumptions and normal conditions built in. Don't apply formal logical rules mechanically without considering whether additional conditions in the antecedent might contradict these implicit assumptions.\n\nAfter considering these factors, write 'Answer: ' followed by only 'yes' or 'no' and nothing else.",
+    "model": "gemini-2.0-flash",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "Answer: no\n",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'If I finish my homework, I can play video games' can we infer 'If I finish my homework and my computer catches on fire, I can play video games'?",
+    "system_prompt": "When evaluating conditional statements, remember that real-world conditionals often have implicit background assumptions and normal conditions built in. Don't apply formal logical rules mechanically without considering whether additional conditions in the antecedent might contradict these implicit assumptions.\n\nAfter considering these factors, write 'Answer: ' followed by only 'yes' or 'no' and nothing else.",
+    "model": "claude-haiku-4-5-20251001",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "Let me work through this carefully.\n\nThe original statement is: \"If I finish my homework, I can play video games\" (If P, then Q)\n\nThe proposed inference is: \"If I finish my homework AND my computer catches on fire, I can play video games\" (If P and R, then Q)\n\nFrom a formal logic perspective, this inference would be **invalid**. Here's why:\n\nIn formal logic, if we have \"If P then Q,\" we cannot validly infer \"If (P and R) then Q\" for an arbitrary additional condition R. Adding conditions to the antecedent can only make the conditional harder to satisfy, not easier.\n\nMore importantly, in real-world reasoning (which the instruction emphasizes), the second statement contradicts implicit background assumptions. The original conditional assumes normal conditions—that my computer is functioning. If my computer catches on fire, this violates the normal conditions implicit in \"I can play video games.\" A burning computer would prevent video game playing regardless of homework completion.\n\nThe second statement creates a logical absurdity: it asserts that even with a burning computer, I can still play video games if I finish homework. This contradicts the practical reality embedded in the original statement.\n\nAnswer: no",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

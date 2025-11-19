@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'Either the missing sock is in the laundry basket or it must be under the bed' together with 'It's not the case that the missing sock must be under the bed', can we infer 'The missing sock is in the laundry basket'?",
+    "system_prompt": "Answer only with 'yes' or 'no' and nothing else.",
+    "model": "claude-sonnet-4-5-20250929",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "Looking at this logical inference:\n\nPremise 1: Either the missing sock is in the laundry basket or it must be under the bed\nPremise 2: It's not the case that the missing sock must be under the bed\n\nThis is a disjunctive syllogism of the form:\n- P or Q\n- Not Q\n- Therefore, P\n\nSince we have \"P or Q\" and \"not Q\", we can validly infer P.\n\n**yes**",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

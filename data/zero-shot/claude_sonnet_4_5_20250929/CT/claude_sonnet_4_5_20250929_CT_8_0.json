@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'If the vampire was awake, then the mummy was awake', can we infer 'If the mummy was not awake, then the vampire was not awake'?",
+    "system_prompt": "Answer only with 'yes' or 'no' and nothing else.",
+    "model": "claude-sonnet-4-5-20250929",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "I need to determine if \"If the mummy was not awake, then the vampire was not awake\" can be inferred from \"If the vampire was awake, then the mummy was awake.\"\n\nLet me denote:\n- V = the vampire was awake\n- M = the mummy was awake\n\nThe original statement is: V → M (If V, then M)\n\nThe question asks if we can infer: ¬M → ¬V (If not M, then not V)\n\nThis is asking whether the contrapositive can be inferred from a conditional statement.\n\nIn classical logic, a conditional statement and its contrapositive are logically equivalent. The contrapositive of \"V → M\" is \"¬M → ¬V\".\n\nSince they are logically equivalent, yes, we can infer the contrapositive from the original statement.\n\nyes",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

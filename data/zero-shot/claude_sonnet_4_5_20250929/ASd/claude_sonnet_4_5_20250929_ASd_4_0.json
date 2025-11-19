@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'If the dog is in the yard, then it is barking', can we infer 'If the dog is in the yard and it is asleep, then it is barking'?",
+    "system_prompt": "Answer only with 'yes' or 'no' and nothing else.",
+    "model": "claude-sonnet-4-5-20250929",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "I need to determine if \"If P, then Q\" allows us to infer \"If (P and R), then Q\".\n\nGiven: If the dog is in the yard (P), then it is barking (Q)\n\nQuestion: Can we infer: If the dog is in the yard (P) and it is asleep (R), then it is barking (Q)?\n\nFrom a purely logical standpoint, this follows the principle of monotonicity: if P → Q, then (P ∧ R) → Q. Adding an additional condition to the antecedent doesn't invalidate the conditional.\n\nHowever, there's a practical consideration: a dog being asleep and barking simultaneously seems contradictory in reality. But the question is about logical inference, not real-world possibility.\n\nLogically: If we know P guarantees Q, then P combined with anything else (including R) still guarantees Q, because P alone is sufficient for Q.\n\nyes",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

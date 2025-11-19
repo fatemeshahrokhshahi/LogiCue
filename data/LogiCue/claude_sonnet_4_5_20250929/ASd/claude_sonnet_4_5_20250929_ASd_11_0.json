@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'If you get enough sleep, you won't be tired' can we infer 'If you get enough sleep and do hard labor, you won't be tired'?",
+    "system_prompt": "When evaluating conditional statements, remember that real-world conditionals often have implicit background assumptions and normal conditions built in. Don't apply formal logical rules mechanically without considering whether additional conditions in the antecedent might contradict these implicit assumptions.\n\nAfter considering these factors, write 'Answer: ' followed by only 'yes' or 'no' and nothing else.",
+    "model": "claude-sonnet-4-5-20250929",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "I need to evaluate whether \"If you get enough sleep, you won't be tired\" allows us to infer \"If you get enough sleep and do hard labor, you won't be tired.\"\n\nLet me consider this carefully:\n\n**Formal logical structure:**\n- Original: If P, then Q (If enough sleep, then not tired)\n- Proposed inference: If (P and R), then Q (If enough sleep and hard labor, then not tired)\n\n**Formal validity:**\nFrom a purely formal logical standpoint, this follows the pattern of strengthening the antecedent. If P→Q is true, then (P∧R)→Q should also be true in classical logic.\n\n**Real-world considerations:**\nHowever, the instruction emphasizes considering implicit assumptions and real-world conditions. The original conditional \"if you get enough sleep, you won't be tired\" operates under normal, implicit background conditions - it assumes you're not doing something that would make you tired despite adequate sleep.\n\nHard labor is precisely the kind of condition that can make someone tired even if they got enough sleep. The addition of \"do hard labor\" contradicts the implicit \"normal conditions\" assumption built into the original statement. Hard labor is a tiredness-inducing factor that operates independently of sleep.\n\n**Practical reality:**\nIn the real world, someone who gets enough sleep but then does hard labor will likely become tired. The hard labor undermines the causal relationship between adequate sleep and not being tired.\n\nThis is a case where adding a condition to the antecedent introduces a factor that defeats the original conditional's conclusion, violating the implicit ceteris paribus (all else being equal) clause.\n\nAnswer: no",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

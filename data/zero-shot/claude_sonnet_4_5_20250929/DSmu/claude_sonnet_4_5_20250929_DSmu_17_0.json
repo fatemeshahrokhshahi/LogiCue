@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'Either the scarf is stuffed in my backpack or it must be draped on the coat rack' together with 'It's not the case that the scarf must be draped on the coat rack', can we infer 'The scarf is stuffed in my backpack'?",
+    "system_prompt": "Answer only with 'yes' or 'no' and nothing else.",
+    "model": "claude-sonnet-4-5-20250929",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "Looking at this logical inference:\n\nPremise 1: Either the scarf is stuffed in my backpack or it must be draped on the coat rack\nPremise 2: It's not the case that the scarf must be draped on the coat rack\n\nThis is a classic disjunctive syllogism of the form:\n- P or Q\n- Not Q\n- Therefore, P\n\nSince we have \"A or B\" and \"not B\", we can validly conclude \"A\".\n\n**Yes**",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

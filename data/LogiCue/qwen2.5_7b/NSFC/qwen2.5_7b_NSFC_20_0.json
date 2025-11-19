@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'The concert might feature rock or jazz music', can we infer 'The concert might feature rock music and the concert might feature jazz music'?",
+    "system_prompt": "When evaluating modal statements with disjunction (e.g., \"X might do A or B\"):\n\nStandard Modal Logic: ♢(A ∨ B) does NOT entail ♢A ∧ ♢B\nNatural Language (Free Choice): Speakers interpret \"might A or B\" as implying both \"might A\" and \"might B\" are true\n\nConsider both the formal logical validity and natural language interpretation patterns.\n\nAnswer with only 'yes' or 'no' - nothing else.",
+    "model": "qwen2.5:7b",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "No",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

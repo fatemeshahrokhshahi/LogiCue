@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'If the vampire was awake, then the mummy must have been awake' together with 'It's not the case that the mummy must have been awake', can we infer 'The vampire was not awake'?",
+    "system_prompt": "Key rule: 'It's not the case that Q must be true' means Q is uncertain/optional, NOT that Q is definitely false.\n\nStandard modus tollens: 'If P then Q' + 'not Q' → 'not P' is VALID\nModal modus tollens: 'If P then Q must be true' + 'Q need not be true' → 'P is false' is INVALID\n\nOnly definitive negation of Q allows concluding not-P.\n\nAnswer with only 'yes' or 'no' - nothing else.",
+    "model": "gemini-2.0-flash",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "no\n",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

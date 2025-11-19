@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'Either the shoes are in the closet or they must be lined up by the door' together with 'It's not the case that the shoes must be lined up by the door', can we infer 'The shoes are in the closet'?",
+    "system_prompt": "Answer only with 'yes' or 'no' and nothing else.",
+    "model": "claude-sonnet-4-5-20250929",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "Looking at this logically:\n\nGiven:\n1. Either the shoes are in the closet or they must be lined up by the door (A ∨ B)\n2. It's not the case that the shoes must be lined up by the door (¬B)\n\nThis is a classic disjunctive syllogism. If we have \"A or B\" and we know \"not B\", then A must be true.\n\nTherefore, we can infer: The shoes are in the closet.\n\n**yes**",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

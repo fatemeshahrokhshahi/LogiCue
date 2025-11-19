@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'Either the newspaper is in the driveway or it must be sitting on the porch' together with 'The newspaper might not be sitting on the porch', can we infer 'The newspaper is in the driveway'?",
+    "system_prompt": "Key: \"Might not P\" expresses possibility only, not definitive negation.\n\nExample 1: From \"Either door is locked or window must be open\" + \"Window might \nnot be open\" → Can we infer \"door is locked\"?\nNo - \"might not\" doesn't eliminate the window option.\n\nExample 2: From \"Either Sarah took bus or she must have driven\" + \"She might not \nhave driven\" → Can we infer \"Sarah took bus\"?\nNo - she still might have driven.\n\nExample 3: From \"Either meeting is today or must be tomorrow\" + \"Meeting is \ndefinitely not tomorrow\" → Can we infer \"meeting is today\"?\nYes - definitive negation works for disjunctive syllogism.\n\nRule: Disjunctive syllogism requires definitive negation, not mere possibility.\n\nAnswer with only 'yes' or 'no':",
+    "model": "gpt-5-chat-latest",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "No",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

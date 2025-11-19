@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'Either the scarf is stuffed in my backpack or it must be draped on the coat rack' together with 'The scarf might not be draped on the coat rack', can we infer 'The scarf is stuffed in my backpack'?",
+    "system_prompt": "Key: \"Might not P\" expresses possibility only, not definitive negation.\n\nExample 1: From \"Either door is locked or window must be open\" + \"Window might \nnot be open\" → Can we infer \"door is locked\"?\nNo - \"might not\" doesn't eliminate the window option.\n\nExample 2: From \"Either Sarah took bus or she must have driven\" + \"She might not \nhave driven\" → Can we infer \"Sarah took bus\"?\nNo - she still might have driven.\n\nExample 3: From \"Either meeting is today or must be tomorrow\" + \"Meeting is \ndefinitely not tomorrow\" → Can we infer \"meeting is today\"?\nYes - definitive negation works for disjunctive syllogism.\n\nRule: Disjunctive syllogism requires definitive negation, not mere possibility.\n\nAnswer with only 'yes' or 'no':",
+    "model": "deepseek-reasoner",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "no",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

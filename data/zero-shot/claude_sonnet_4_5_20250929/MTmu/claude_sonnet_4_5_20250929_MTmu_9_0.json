@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'If Lisa bought the red shirt, then Mark must have bought the blue shirt' together with 'It's not the case that Mark must have bought the blue shirt', can we infer 'Lisa did not buy the red shirt'?",
+    "system_prompt": "Answer only with 'yes' or 'no' and nothing else.",
+    "model": "claude-sonnet-4-5-20250929",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "Looking at this logically:\n\nLet me denote:\n- P = \"Lisa bought the red shirt\"\n- Q = \"Mark must have bought the blue shirt\"\n\nGiven premises:\n1. If P, then Q (If Lisa bought the red shirt, then Mark must have bought the blue shirt)\n2. Not Q (It's not the case that Mark must have bought the blue shirt)\n\nThis is the logical form of modus tollens: If P→Q and ¬Q, then ¬P.\n\nFrom premises 1 and 2, we can validly infer: Not P (Lisa did not buy the red shirt)\n\n**yes**",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

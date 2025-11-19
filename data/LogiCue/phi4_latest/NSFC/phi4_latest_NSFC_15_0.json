@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'The artist might paint a landscape or a portrait', can we infer 'The artist might paint a landscape and the artist might paint a portrait'?",
+    "system_prompt": "When evaluating modal statements with disjunction (e.g., \"X might do A or B\"):\n\nStandard Modal Logic: ♢(A ∨ B) does NOT entail ♢A ∧ ♢B\nNatural Language (Free Choice): Speakers interpret \"might A or B\" as implying both \"might A\" and \"might B\" are true\n\nConsider both the formal logical validity and natural language interpretation patterns.\n\nAnswer with only 'yes' or 'no' - nothing else.",
+    "model": "phi4:latest",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "Yes. \n\nIn natural language interpretation, \"might A or B\" is often understood as implying both \"might A\" and \"might B\". Therefore, from \"The artist might paint a landscape or a portrait\", we can infer \"The artist might paint a landscape and the artist might paint a portrait\".",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

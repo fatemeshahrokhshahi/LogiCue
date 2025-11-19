@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'If I charge my phone, it will have power' can we infer 'If I charge my phone and it has a dead battery, it will have power'?",
+    "system_prompt": "Answer only with 'yes' or 'no' and nothing else.",
+    "model": "claude-sonnet-4-5-20250929",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "Looking at this logically:\n\nThe original statement: \"If I charge my phone, it will have power\" can be written as:\n- If P, then Q\n\nThe proposed inference: \"If I charge my phone and it has a dead battery, it will have power\" can be written as:\n- If (P and R), then Q\n\nThis is an instance of strengthening the antecedent. If P is sufficient for Q, then P combined with any additional condition R is also sufficient for Q. This is a valid logical inference.\n\n**Yes**",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

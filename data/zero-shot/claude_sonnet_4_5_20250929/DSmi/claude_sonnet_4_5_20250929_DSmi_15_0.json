@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'Either the shoes are in the closet or they must be lined up by the door' together with 'The shoes might not be lined up by the door', can we infer 'The shoes are in the closet'?",
+    "system_prompt": "Answer only with 'yes' or 'no' and nothing else.",
+    "model": "claude-sonnet-4-5-20250929",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "Let me work through this step-by-step.\n\nGiven:\n1. \"Either the shoes are in the closet or they must be lined up by the door\" - This is a disjunction: (A or B), where B is \"must be lined up by the door\"\n2. \"The shoes might not be lined up by the door\" - This means it's possible that they're not lined up by the door\n\nFor a disjunction (A or B), to infer A, we would need to know that B is false (not B).\n\nHowever, \"might not be lined up by the door\" only tells us it's possible they're not there - it doesn't tell us they're definitely not there. This is weaker than saying \"they are not lined up by the door.\"\n\nSince we don't have a definite negation of the second disjunct, we cannot validly infer that the shoes are in the closet.\n\nno",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'If the vampire was awake, then the mummy must have been awake' together with 'It's not the case that the mummy must have been awake', can we infer 'The vampire was not awake'?",
+    "system_prompt": "Answer only with 'yes' or 'no' and nothing else.",
+    "model": "claude-sonnet-4-5-20250929",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "I need to analyze this logical inference.\n\nLet me denote:\n- V = \"the vampire was awake\"\n- M = \"the mummy must have been awake\"\n\nThe premises are:\n1. \"If the vampire was awake, then the mummy must have been awake\" → V → M\n2. \"It's not the case that the mummy must have been awake\" → ¬M\n\nThe question asks if we can infer: \"The vampire was not awake\" → ¬V\n\nThis is a classic example of modus tollens:\n- If V → M (premise 1)\n- ¬M (premise 2)\n- Therefore, ¬V (conclusion)\n\nThis is a valid logical inference.\n\nyes",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

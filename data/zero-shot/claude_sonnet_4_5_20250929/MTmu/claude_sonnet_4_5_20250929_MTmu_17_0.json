@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'If Ben ate pasta, then Kate must have eaten the salad' together with 'It's not the case that Kate must have eaten the salad', can we infer 'Ben did not eat pasta'?",
+    "system_prompt": "Answer only with 'yes' or 'no' and nothing else.",
+    "model": "claude-sonnet-4-5-20250929",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "Looking at this logical inference:\n\nGiven:\n1. If Ben ate pasta, then Kate must have eaten the salad (P → Q)\n2. It's not the case that Kate must have eaten the salad (¬Q)\n\nThis is a classic example of modus tollens, a valid form of logical inference:\n- If P then Q\n- Not Q\n- Therefore, not P\n\nSince Kate did not eat the salad (¬Q), and we know that Ben eating pasta would require Kate to have eaten the salad (P → Q), we can conclude that Ben did not eat pasta (¬P).\n\n**yes**",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

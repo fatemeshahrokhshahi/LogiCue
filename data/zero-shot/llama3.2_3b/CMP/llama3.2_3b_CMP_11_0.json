@@ -1,0 +1,14 @@
+{
+    "user_prompt": "Suppose that Ford, Toyota, and Honda lead US auto sales. Industry analysis expects Ford will sell the most vehicles this year, followed closely by Toyota, with Honda lagging significantly behind. These brands lead the market, so if Toyota isn’t #1 in sales, then if Ford isn’t, Honda will be. Moreover, Ford likely will lead in sales and hence Toyota likely won’t. Does it follow that it is likely that, if Ford doesn’t lead in sales, Honda will?",
+    "system_prompt": "Answer only with 'yes' or 'no' and nothing else.",
+    "model": "llama3.2:3b",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "Yes",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

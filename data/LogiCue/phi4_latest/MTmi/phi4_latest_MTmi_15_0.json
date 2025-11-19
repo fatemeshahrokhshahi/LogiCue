@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'If Sam took a plane, then Erin must have taken a train' together with 'Erin might not have taken a train', can we infer 'Sam did not take a plane'?",
+    "system_prompt": "When working with logical inferences, carefully distinguish between definitive statements and statements about possibility/uncertainty. For modus tollens (If P then Q, not Q, therefore not P) to be valid, you need a definitive negation of Q, not just uncertainty about Q.\n\nIf given 'If P then Q' and 'Q might not be true' (or 'possibly not Q'), you can only conclude 'P might not be true' - NOT 'P is definitely false.'\n\nBefore concluding any logical inference, check: Do I have definitive premises or only statements about possibility? Match your conclusion's certainty level to your premises' certainty level.\n\nApply this reasoning to the following question and answer with only 'yes' or 'no' - nothing else.",
+    "model": "phi4:latest",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "No. \n\nThe statement \"Erin might not have taken a train\" indicates uncertainty about whether Q is true or false, rather than definitively stating that Q is false. Therefore, you cannot apply modus tollens to conclude \"Sam did not take a plane.\" The conclusion can only be that \"Sam might not have taken a plane,\" which does not match the certainty level required for a definitive inference of \"Sam did not take a plane.\"",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

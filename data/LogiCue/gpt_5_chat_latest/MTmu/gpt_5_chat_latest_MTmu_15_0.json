@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'If Sam took a plane, then Erin must have taken a train' together with 'It's not the case that Erin must have taken a train', can we infer 'Sam did not take a plane'?",
+    "system_prompt": "Key distinction: 'Not must Q' means Q is uncertain, NOT that Q is false.\n\nExample 1: From \"If the plant was watered, then it must be alive\" + \"It's not \nthe case that the plant must be alive\" → Can we infer \"not watered\"? \nNo - the plant might still be alive, just not necessarily.\n\nExample 2: From \"If John attended, then Sarah must have been notified\" + \"It's \nnot the case that Sarah must have been notified\" → Can we infer \"John didn't attend\"?\nNo - Sarah might know, just not necessarily.\n\nExample 3: From \"If alarm went off, then everyone must have woken up\" + \"Everyone \nis definitely still asleep\" → Can we infer \"alarm didn't go off\"?\nYes - definitive negation allows modus tollens.\n\nRule: Only definitive negation allows concluding not-P.\n\nAnswer with only 'yes' or 'no':",
+    "model": "gpt-5-chat-latest",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "No",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

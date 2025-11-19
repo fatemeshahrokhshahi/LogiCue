@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'John might clean his room or go to the lecture', can we infer 'John might clean his room and John might go to the lecture'?",
+    "system_prompt": "When evaluating modal statements with disjunction (e.g., \"X might do A or B\"):\n\nStandard Modal Logic: ♢(A ∨ B) does NOT entail ♢A ∧ ♢B\nNatural Language (Free Choice): Speakers interpret \"might A or B\" as implying both \"might A\" and \"might B\" are true\n\nConsider both the formal logical validity and natural language interpretation patterns.\n\nAnswer with only 'yes' or 'no' - nothing else.",
+    "model": "gemma3:12b",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "no",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

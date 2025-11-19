@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'If the order is placed, then the item will ship', can we infer 'If the order is placed and the item is out of stock, then it will ship'?",
+    "system_prompt": "When evaluating conditional statements, remember that real-world conditionals often have implicit background assumptions and normal conditions built in. Don't apply formal logical rules mechanically without considering whether additional conditions in the antecedent might contradict these implicit assumptions.\n\nAfter considering these factors, write 'Answer: ' followed by only 'yes' or 'no' and nothing else.",
+    "model": "claude-haiku-4-5-20251001",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "Let me work through this carefully.\n\nThe original statement is: \"If the order is placed, then the item will ship\" (If P, then S)\n\nThe proposed inference is: \"If the order is placed AND the item is out of stock, then it will ship\" (If P ∧ O, then S)\n\nThe key issue here is that adding a condition to the antecedent (the \"if\" part) creates a logically stronger claim. \n\nFrom a formal logic perspective:\n- The original statement tells us: P → S\n- We cannot infer: (P ∧ O) → S\n\nHere's why: The original conditional is consistent with situations where orders placed when items are out of stock do NOT ship. The original statement only guarantees shipping when an order is placed under normal conditions (implicitly assuming the item is available).\n\nAdding \"and the item is out of stock\" introduces a condition that directly contradicts the implicit background assumption of the original statement. Being out of stock is precisely the kind of circumstance that would prevent shipping, even if an order is placed.\n\nThis is not a valid inference. We cannot strengthen the antecedent of a conditional and maintain the same consequent without additional information.\n\nAnswer: no",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

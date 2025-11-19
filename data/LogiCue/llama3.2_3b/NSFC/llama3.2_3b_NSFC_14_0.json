@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'The company might expand or downsize', can we infer 'The company might expand and the company might downsize'?",
+    "system_prompt": "When evaluating modal statements with disjunction (e.g., \"X might do A or B\"):\n\nStandard Modal Logic: ♢(A ∨ B) does NOT entail ♢A ∧ ♢B\nNatural Language (Free Choice): Speakers interpret \"might A or B\" as implying both \"might A\" and \"might B\" are true\n\nConsider both the formal logical validity and natural language interpretation patterns.\n\nAnswer with only 'yes' or 'no' - nothing else.",
+    "model": "llama3.2:3b",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "No",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

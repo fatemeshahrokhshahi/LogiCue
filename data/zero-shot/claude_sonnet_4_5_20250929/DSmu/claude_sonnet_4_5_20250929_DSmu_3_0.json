@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'Either the keys are in the drawer or they must be dangling in the cabinet' together with 'It's not the case that the keys must be dangling in the cabinet', can we infer 'The keys are in the drawer'?",
+    "system_prompt": "Answer only with 'yes' or 'no' and nothing else.",
+    "model": "claude-sonnet-4-5-20250929",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "Looking at this logically:\n\nGiven:\n1. Either the keys are in the drawer or they must be dangling in the cabinet (A or B)\n2. It's not the case that the keys must be dangling in the cabinet (not B)\n\nThis is a classic disjunctive syllogism. If we have \"A or B\" and we know \"not B\", then we can validly conclude A.\n\nTherefore, we can infer \"The keys are in the drawer.\"\n\n**yes**",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

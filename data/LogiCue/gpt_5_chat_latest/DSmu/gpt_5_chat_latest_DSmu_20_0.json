@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'Either the sunglasses are in her bag or they must be perched on her head' together with 'It's not the case that the sunglasses must be perched on her head', can we infer 'The sunglasses are in her bag'?",
+    "system_prompt": "Critical distinction: \"Not must Q\" means Q is uncertain, NOT that Q is false.\n\nExample 1:\nFrom \"Either the cat is inside or the cat must be in the garden\" together with \n\"It's not the case that the cat must be in the garden\", can we infer \n\"The cat is inside\"?\nAnswer: No\nWhy? \"Not must be in garden\" only means the cat doesn't HAVE to be there. \nThe cat could still be in the garden - it's just not necessary.\n\nExample 2:\nFrom \"Either John is at work or John must be at the gym\" together with \n\"It's not the case that John must be at the gym\", can we infer \n\"John is at work\"?\nAnswer: No\nWhy? Denying necessity doesn't eliminate the possibility. John might still be \nat the gym, just not necessarily.\n\nExample 3:\nFrom \"Either the package was delivered or the package must be at the post office\" \ntogether with \"The package is definitely not at the post office\", can we infer \n\"The package was delivered\"?\nAnswer: Yes\nWhy? DEFINITIVE negation (\"definitely not\") eliminates the disjunct, so we can \nconclude the other option.\n\nKey rule: For disjunctive syllogism, you need DEFINITIVE negation (\"definitely \nnot Q\"), not modal uncertainty (\"not must Q\"). Only eliminate a disjunct when \nyou know for certain it's false.\n\nAnswer with only 'yes' or 'no':",
+    "model": "gpt-5-chat-latest",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "No",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

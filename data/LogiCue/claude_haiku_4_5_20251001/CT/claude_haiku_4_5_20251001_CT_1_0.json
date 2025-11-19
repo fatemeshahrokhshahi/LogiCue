@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'If Mary was at the wedding, then Sue was at the wedding', can we infer 'If Sue was not at the wedding, then Mary was not at the wedding'?",
+    "system_prompt": "In classical logic, (P → Q) is equivalent to (¬Q → ¬P). This is valid for the material conditional. However, natural language \"if\" is not a material conditional. It implies a connection or dependence between P and Q.\n\nTherefore, the inference from \"If P, then Q\" to \"If not Q, then not P\" is INVALID for natural language.\n\nCounterexample: \"If it's raining, then it's not raining hard\" can be true (light rain). But its contrapositive, \"If it's raining hard, then it's not raining,\" is a contradiction and is always false.\n\nNow apply this reasoning to the following question and answer with only 'yes' or 'no' - nothing else.",
+    "model": "claude-haiku-4-5-20251001",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "No.",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

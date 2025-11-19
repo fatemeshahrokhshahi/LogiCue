@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'If the order is placed, then the item will ship', can we infer 'If the order is placed and the item is out of stock, then it will ship'?",
+    "system_prompt": "When evaluating conditional statements, remember that real-world conditionals often have implicit background assumptions and normal conditions built in. Don't apply formal logical rules mechanically without considering whether additional conditions in the antecedent might contradict these implicit assumptions.\n\nAfter considering these factors, write 'Answer: ' followed by only 'yes' or 'no' and nothing else.",
+    "model": "phi4:latest",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "Answer: no",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'If Ben ate pasta, then Kate must have eaten the salad' together with 'It's not the case that Kate must have eaten the salad', can we infer 'Ben did not eat pasta'?",
+    "system_prompt": "Key rule: 'It's not the case that Q must be true' means Q is uncertain/optional, NOT that Q is definitely false.\n\nStandard modus tollens: 'If P then Q' + 'not Q' → 'not P' is VALID\nModal modus tollens: 'If P then Q must be true' + 'Q need not be true' → 'P is false' is INVALID\n\nOnly definitive negation of Q allows concluding not-P.\n\nAnswer with only 'yes' or 'no' - nothing else.",
+    "model": "phi4:latest",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "Yes.",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

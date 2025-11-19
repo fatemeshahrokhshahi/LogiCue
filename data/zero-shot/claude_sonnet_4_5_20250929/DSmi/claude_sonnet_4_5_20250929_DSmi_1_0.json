@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'Either Fido is inside or Fido must be in the garden' together with 'Fido might not be in the garden', can we infer 'Fido is inside'?",
+    "system_prompt": "Answer only with 'yes' or 'no' and nothing else.",
+    "model": "claude-sonnet-4-5-20250929",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "I need to analyze this logical inference.\n\nLet me denote:\n- I = \"Fido is inside\"\n- G = \"Fido is in the garden\"\n\nThe premises are:\n1. \"Either Fido is inside or Fido must be in the garden\" = I ∨ □G\n2. \"Fido might not be in the garden\" = ◇¬G\n\nThe question asks if we can infer: I\n\nFrom premise 2: ◇¬G (it's possible that Fido is not in the garden)\nThis means: ¬□G (it's not necessary that Fido is in the garden)\n\nFrom premise 1: I ∨ □G\n\nIf ¬□G is true, and we have I ∨ □G, then for the disjunction to be true, I must be true.\n\nThis is a valid application of disjunctive syllogism:\n- I ∨ □G (premise 1)\n- ¬□G (from premise 2)\n- Therefore, I\n\nyes",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

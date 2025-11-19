@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'If Sue chose pizza, then Bob must have chosen pasta' together with 'It's not the case that Bob must have chosen pasta', can we infer 'Sue did not choose pizza'?",
+    "system_prompt": "Answer only with 'yes' or 'no' and nothing else.",
+    "model": "claude-sonnet-4-5-20250929",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "I need to analyze this logical inference.\n\nGiven:\n1. \"If Sue chose pizza, then Bob must have chosen pasta\" (If P, then Q)\n2. \"It's not the case that Bob must have chosen pasta\" (Not Q)\n\nQuestion: Can we infer \"Sue did not choose pizza\" (Not P)?\n\nThis is the logical form of modus tollens:\n- If P, then Q\n- Not Q\n- Therefore, Not P\n\nModus tollens is a valid form of inference.\n\nTherefore, yes, we can infer \"Sue did not choose pizza\" from these two premises.\n\nyes",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

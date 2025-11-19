@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'If the book was written by James, then the book must be a mystery novel' together with 'The book might not be a mystery novel', can we infer 'The book was not written by James'?",
+    "system_prompt": "When working with logical inferences, carefully distinguish between definitive statements and statements about possibility/uncertainty. For modus tollens (If P then Q, not Q, therefore not P) to be valid, you need a definitive negation of Q, not just uncertainty about Q.\n\nIf given 'If P then Q' and 'Q might not be true' (or 'possibly not Q'), you can only conclude 'P might not be true' - NOT 'P is definitely false.'\n\nBefore concluding any logical inference, check: Do I have definitive premises or only statements about possibility? Match your conclusion's certainty level to your premises' certainty level.\n\nApply this reasoning to the following question and answer with only 'yes' or 'no' - nothing else.",
+    "model": "claude-haiku-4-5-20251001",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "No",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

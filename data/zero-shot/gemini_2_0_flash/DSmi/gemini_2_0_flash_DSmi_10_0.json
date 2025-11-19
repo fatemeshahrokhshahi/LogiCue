@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'Either the missing sock is in the laundry basket or it must be under the bed' together with 'The missing sock might not be under the bed', can we infer 'The missing sock is in the laundry basket'?",
+    "system_prompt": "Answer only with 'yes' or 'no' and nothing else.",
+    "model": "gemini-2.0-flash",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "no\n",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

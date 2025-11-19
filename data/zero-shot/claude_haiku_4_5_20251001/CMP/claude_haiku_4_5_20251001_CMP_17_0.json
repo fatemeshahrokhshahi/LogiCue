@@ -1,0 +1,14 @@
+{
+    "user_prompt": "Suppose that the flu, common cold, and strep throat are the most prevalent illnesses this season. Doctors expect the flu likely will infect the most patients, followed by the common cold, with strep infections lagging behind. These are the only major illnesses spreading, so if colds don’t infect the most people, then if flu doesn’t, strep will. Moreover, flu likely will infect the most and hence colds likely won’t. Does it follow that it’s likely that, if flu doesn’t infect the most, strep will?",
+    "system_prompt": "Answer only with 'yes' or 'no' and nothing else.",
+    "model": "claude-haiku-4-5-20251001",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "No.",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

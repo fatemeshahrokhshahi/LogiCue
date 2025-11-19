@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'If the doll was plastic, then the truck must have been metal' together with 'It's not the case that the truck must have been metal', can we infer 'The doll was not plastic'?",
+    "system_prompt": "Answer only with 'yes' or 'no' and nothing else.",
+    "model": "claude-sonnet-4-5-20250929",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "Looking at this logical inference:\n\nGiven:\n1. \"If the doll was plastic, then the truck must have been metal\" (P → Q)\n2. \"It's not the case that the truck must have been metal\" (¬Q)\n\nQuestion: Can we infer \"The doll was not plastic\" (¬P)?\n\nThis is the logical form of modus tollens:\n- P → Q\n- ¬Q\n- Therefore, ¬P\n\nThis is a valid inference rule.\n\n**yes**",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

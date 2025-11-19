@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'If the shirt was cotton, then the pants must have been denim' together with 'It's not the case that the pants must have been denim', can we infer 'The shirt was not cotton'?",
+    "system_prompt": "Answer only with 'yes' or 'no' and nothing else.",
+    "model": "claude-sonnet-4-5-20250929",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "Looking at this logical inference:\n\nGiven:\n1. \"If the shirt was cotton, then the pants must have been denim\" (If P, then Q)\n2. \"It's not the case that the pants must have been denim\" (Not Q)\n\nCan we infer: \"The shirt was not cotton\" (Not P)?\n\nThis is the logical form known as modus tollens:\n- If P → Q\n- ¬Q\n- Therefore, ¬P\n\nThis is a valid form of inference.\n\n**yes**",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

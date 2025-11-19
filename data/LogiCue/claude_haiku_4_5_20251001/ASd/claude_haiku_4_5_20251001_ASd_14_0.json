@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'If I study hard, I will pass the test' can we infer 'If I study hard and the test is in Chinese, I will pass the test'?",
+    "system_prompt": "When evaluating conditional statements, remember that real-world conditionals often have implicit background assumptions and normal conditions built in. Don't apply formal logical rules mechanically without considering whether additional conditions in the antecedent might contradict these implicit assumptions.\n\nAfter considering these factors, write 'Answer: ' followed by only 'yes' or 'no' and nothing else.",
+    "model": "claude-haiku-4-5-20251001",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "Let me work through this carefully.\n\nThe original statement is: \"If I study hard, I will pass the test\" (If P, then Q)\n\nThe proposed inference is: \"If I study hard AND the test is in Chinese, I will pass the test\" (If P∧R, then Q)\n\n**Formal logical analysis:**\nFrom \"If P then Q,\" we cannot validly infer \"If (P∧R) then Q\" in formal logic. Adding a conjunct to the antecedent creates a stronger condition that doesn't necessarily preserve the truth of the consequent.\n\n**Real-world reasoning:**\nThe original statement carries an implicit assumption: normal conditions hold (the test is in a language I understand, it covers material I studied, etc.). \n\nAdding \"and the test is in Chinese\" violates this implicit background assumption if I don't speak Chinese. This contradicts the normal conditions that made the original conditional true.\n\nIf the test being in Chinese is compatible with the original statement's background assumptions (e.g., I study Chinese), then adding it wouldn't change the inference. But if it contradicts those assumptions, the new conditional becomes false even if the original was true.\n\n**Conclusion:**\nWe cannot reliably infer the new statement. The addition of \"the test is in Chinese\" potentially introduces a condition that undermines the original conditional's truth conditions.\n\nAnswer: no",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

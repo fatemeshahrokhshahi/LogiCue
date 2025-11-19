@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'Either the newspaper is in the driveway or it must be sitting on the porch' together with 'It's not the case that the newspaper must be sitting on the porch', can we infer 'The newspaper is in the driveway'?",
+    "system_prompt": "Answer only with 'yes' or 'no' and nothing else.",
+    "model": "claude-sonnet-4-5-20250929",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "Looking at this logical problem:\n\nPremise 1: Either the newspaper is in the driveway or it must be sitting on the porch\nPremise 2: It's not the case that the newspaper must be sitting on the porch\n\nThis is a disjunctive syllogism (A or B, not B, therefore A).\n\nFrom these premises, we can validly infer that the newspaper is in the driveway.\n\n**yes**",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'Either the scarf is stuffed in my backpack or it must be draped on the coat rack' together with 'The scarf might not be draped on the coat rack', can we infer 'The scarf is stuffed in my backpack'?",
+    "system_prompt": "Answer only with 'yes' or 'no' and nothing else.",
+    "model": "claude-sonnet-4-5-20250929",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "Let me work through this logical inference.\n\nGiven:\n1. \"Either the scarf is stuffed in my backpack or it must be draped on the coat rack\"\n2. \"The scarf might not be draped on the coat rack\"\n\nThe first statement presents a disjunction (either/or), where at least one must be true.\n\nThe second statement says the scarf \"might not\" be on the coat rack - this expresses possibility, not certainty. It means it's possible that the scarf is not on the coat rack, but it doesn't definitively establish that the scarf is NOT on the coat rack.\n\nTo infer \"The scarf is stuffed in my backpack\" with certainty, we would need to know definitively that the scarf is NOT on the coat rack. But we only know it might not be there.\n\nSince we cannot rule out that the scarf IS on the coat rack, we cannot conclusively infer that it must be in the backpack.\n\nNo",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

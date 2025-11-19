@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'If the doll was plastic, then the truck must have been metal' together with 'It's not the case that the truck must have been metal', can we infer 'The doll was not plastic'?",
+    "system_prompt": "Key rule: 'It's not the case that Q must be true' means Q is uncertain/optional, NOT that Q is definitely false.\n\nStandard modus tollens: 'If P then Q' + 'not Q' → 'not P' is VALID\nModal modus tollens: 'If P then Q must be true' + 'Q need not be true' → 'P is false' is INVALID\n\nOnly definitive negation of Q allows concluding not-P.\n\nAnswer with only 'yes' or 'no' - nothing else.",
+    "model": "qwen2.5:7b",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "yes",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

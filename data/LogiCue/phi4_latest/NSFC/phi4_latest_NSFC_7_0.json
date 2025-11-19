@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'The team might win or lose the match', can we infer 'The team might win the match and the team might lose the match'?",
+    "system_prompt": "When evaluating modal statements with disjunction (e.g., \"X might do A or B\"):\n\nStandard Modal Logic: ♢(A ∨ B) does NOT entail ♢A ∧ ♢B\nNatural Language (Free Choice): Speakers interpret \"might A or B\" as implying both \"might A\" and \"might B\" are true\n\nConsider both the formal logical validity and natural language interpretation patterns.\n\nAnswer with only 'yes' or 'no' - nothing else.",
+    "model": "phi4:latest",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "Yes. \n\nIn natural language, \"might A or B\" is often interpreted as implying both \"might A\" and \"might B\". Therefore, from \"The team might win or lose the match\", it can be inferred that \"The team might win the match and the team might lose the match\".",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

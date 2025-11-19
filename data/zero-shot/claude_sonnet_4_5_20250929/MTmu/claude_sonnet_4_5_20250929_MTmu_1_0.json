@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'If Mary was at the wedding, then Sue must have been at the wedding' together with 'It's not the case that Sue must have been at the wedding', can we infer 'Mary was not at the wedding'?",
+    "system_prompt": "Answer only with 'yes' or 'no' and nothing else.",
+    "model": "claude-sonnet-4-5-20250929",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "I need to analyze this logical inference.\n\nGiven premises:\n1. If Mary was at the wedding, then Sue must have been at the wedding\n2. It's not the case that Sue must have been at the wedding\n\nIn logical form:\n1. Mary → Sue must have been there\n2. ¬(Sue must have been there)\n\nThis is a straightforward application of modus tollens:\n- If P then Q\n- Not Q\n- Therefore, not P\n\nFrom \"If Mary was at the wedding, then Sue must have been at the wedding\" and \"It's not the case that Sue must have been at the wedding,\" we can validly conclude \"Mary was not at the wedding.\"\n\nyes",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

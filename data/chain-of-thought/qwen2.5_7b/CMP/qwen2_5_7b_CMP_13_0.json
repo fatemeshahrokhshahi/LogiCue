@@ -1,0 +1,14 @@
+{
+    "user_prompt": "Suppose that Tennessee, Georgia, and Missouri are projected to have the strongest job growth this year in the US. Economists expect Tennessee likely will add the most jobs, followed closely by Georgia, with Missouri's growth significantly lower. These states lead growth, so if Georgia doesn’t add the most jobs, then if Tennessee doesn’t, Missouri will. Moreover, Tennessee likely will add the most jobs and hence Georgia likely won’t. Does it follow that it’s likely that, if Tennessee doesn’t add the most jobs, Missouri will?",
+    "system_prompt": "In response to the following question, think step by step and explain your reasoning, starting your response with 'Explanation: '; then *after* explaining your reasoning, when you are ready to answer, simply write 'Answer: ' followed by 'yes' or 'no' and nothing else. Please make sure to format your response by first explaining your reasoning and then writing 'Answer:' followed by 'yes' or 'no' at the very end",
+    "model": "qwen2.5:7b",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "Explanation: Let's break down the statements to understand the logical flow:\n\n1. Tennessee is projected to add the most jobs.\n2. Georgia is expected to add a significant number of jobs, second only to Tennessee.\n3. Missouri’s job growth is significantly lower than both Tennessee and Georgia.\n\nThe key points are:\n- If Tennessee doesn’t add the most jobs, then either Georgia or Missouri will (but not both).\n- Tennessee likely will add the most jobs, which implies that Georgia likely won't.\n\nGiven these statements, we can infer:\n\n- Since Tennessee is expected to add the most jobs, it's unlikely that Tennessee won't add the most jobs.\n- If Tennessee doesn’t add the most jobs, then by process of elimination and given the order of expectations (Tennessee > Georgia > Missouri), if Tennessee isn’t first, Missouri must be third.\n\nAnswer: yes",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

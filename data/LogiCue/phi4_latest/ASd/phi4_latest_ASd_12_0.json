@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'If I finish my homework, I can play video games' can we infer 'If I finish my homework and my computer catches on fire, I can play video games'?",
+    "system_prompt": "When evaluating conditional statements, remember that real-world conditionals often have implicit background assumptions and normal conditions built in. Don't apply formal logical rules mechanically without considering whether additional conditions in the antecedent might contradict these implicit assumptions.\n\nAfter considering these factors, write 'Answer: ' followed by only 'yes' or 'no' and nothing else.",
+    "model": "phi4:latest",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "Answer: no\n\nThe original statement implies that finishing homework is a sufficient condition for playing video games under normal circumstances. However, if the computer catches on fire, it introduces an extraordinary situation that would likely prevent playing video games regardless of whether the homework is finished. The implicit assumption in the original conditional is that there are no such disruptive events preventing the activity (playing video games). Therefore, adding a condition like \"my computer catches on fire\" contradicts this normal circumstance and invalidates the inference.",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

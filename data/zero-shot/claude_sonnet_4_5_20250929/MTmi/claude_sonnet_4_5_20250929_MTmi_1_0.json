@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'If Mary was at the wedding, then Sue must have been at the wedding' together with 'Sue might not have been at the wedding', can we infer 'Mary was not at the wedding'?",
+    "system_prompt": "Answer only with 'yes' or 'no' and nothing else.",
+    "model": "claude-sonnet-4-5-20250929",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "Looking at this logical inference:\n\nGiven:\n1. If Mary was at the wedding, then Sue must have been at the wedding\n2. Sue might not have been at the wedding\n\nThe question asks if we can infer: Mary was not at the wedding\n\nFrom premise 1, we have: Mary → Sue (must)\nFrom premise 2, we have: ◇¬Sue (it's possible that Sue was not at the wedding)\n\nThe fact that Sue might not have been at the wedding means there's a possible world where Sue wasn't there. By premise 1, if Mary was at the wedding, Sue must have been there (in all accessible worlds). So in any world where Mary was at the wedding, Sue must be there too.\n\nHowever, \"Sue might not have been at the wedding\" only tells us about possibility - it doesn't tell us what actually happened. It's compatible with Sue actually being at the wedding. Therefore, we cannot definitively conclude that Mary was not at the wedding.\n\n**no**",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

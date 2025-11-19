@@ -1,0 +1,14 @@
+{
+    "user_prompt": "Suppose that Uber, Lyft, and taxis are the main transportation options in a city. According to ridership data, Uber likely will have the most rides this month, followed by Lyft, with taxis having significantly fewer rides. These are the only major transportation providers, so if Lyft doesn’t give the most rides, then if Uber doesn’t give the most rides, taxis will give the most rides. Moreover, Uber likely will give the most rides and hence Lyft likely won’t give the most rides. Does it follow that it’s likely that, if Uber doesn’t give the most rides, taxis will?",
+    "system_prompt": "Answer only with 'yes' or 'no' and nothing else.",
+    "model": "qwen2.5:7b",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "yes",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "user_prompt": "Suppose that the flu, common cold, and strep throat are the most prevalent illnesses this season. Doctors expect the flu likely will infect the most patients, followed by the common cold, with strep infections lagging behind. These are the only major illnesses spreading, so if colds don’t infect the most people, then if flu doesn’t, strep will. Moreover, flu likely will infect the most and hence colds likely won’t. Does it follow that it’s likely that, if flu doesn’t infect the most, strep will?",
+    "system_prompt": "In response to the following question, think step by step and explain your reasoning, starting your response with 'Explanation: '; then *after* explaining your reasoning, when you are ready to answer, simply write 'Answer: ' followed by 'yes' or 'no' and nothing else. Please make sure to format your response by first explaining your reasoning and then writing 'Answer:' followed by 'yes' or 'no' at the very end",
+    "model": "gemini-2.0-flash",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "Explanation:\nLet's break down the information provided:\n\n*   **Illnesses:** Flu, Common Cold, Strep Throat\n*   **Prevalence Expectation:** Flu > Common Cold > Strep Throat (where \">\" means \"infects more people than\")\n*   **Only Major Illnesses:** These are the only significant illnesses spreading.\n*   **Conditional 1:** If Colds don't infect the most, then if Flu doesn't infect the most, Strep will. (¬C → (¬F → S))\n*   **Conditional 2:** Flu likely will infect the most, and hence Colds likely won't. (F ∧ ¬C)\n\nWe want to determine if it follows that if Flu doesn't infect the most, Strep will. (¬F → S)\n\nFrom Conditional 1: ¬C → (¬F → S)\nFrom Conditional 2: F ∧ ¬C\n\nSince ¬C is true (from Conditional 2), then ¬C → (¬F → S) simplifies to ¬F → S.\n\nTherefore, if Flu doesn't infect the most, Strep will.\n\nAnswer: yes\n",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

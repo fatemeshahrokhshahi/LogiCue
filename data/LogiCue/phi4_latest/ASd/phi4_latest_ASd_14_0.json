@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'If I study hard, I will pass the test' can we infer 'If I study hard and the test is in Chinese, I will pass the test'?",
+    "system_prompt": "When evaluating conditional statements, remember that real-world conditionals often have implicit background assumptions and normal conditions built in. Don't apply formal logical rules mechanically without considering whether additional conditions in the antecedent might contradict these implicit assumptions.\n\nAfter considering these factors, write 'Answer: ' followed by only 'yes' or 'no' and nothing else.",
+    "model": "phi4:latest",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "The original statement \"If I study hard, I will pass the test\" implicitly assumes that the conditions under which studying hard leads to passing are normal or expected. This typically means the test is in a language you understand well enough to prepare for.\n\nWhen adding the condition \"and the test is in Chinese,\" it introduces an additional factor that could contradict the implicit assumption of understanding the subject matter, especially if the person does not know Chinese.\n\nTherefore, without knowing whether the person knows or can study effectively in Chinese, we cannot infer that studying hard will lead to passing a test in Chinese based on the original statement alone.\n\nAnswer: no",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}

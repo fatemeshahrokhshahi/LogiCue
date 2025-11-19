@@ -1,0 +1,14 @@
+{
+    "user_prompt": "From 'If the oven is on, then the kitchen is warm', can we infer 'If the oven is on and the pilot light is out, then the kitchen is warm'?",
+    "system_prompt": "When evaluating conditional statements, remember that real-world conditionals often have implicit background assumptions and normal conditions built in. Don't apply formal logical rules mechanically without considering whether additional conditions in the antecedent might contradict these implicit assumptions.\n\nAfter considering these factors, write 'Answer: ' followed by only 'yes' or 'no' and nothing else.",
+    "model": "phi4:latest",
+    "temperature": 0,
+    "responses": [
+        {
+            "content": "Answer: no\n\nThe original statement \"If the oven is on, then the kitchen is warm\" implicitly assumes that when the oven is on, it functions normally to produce heat. However, if the pilot light is out, the oven cannot function properly and thus would not make the kitchen warm. Therefore, adding the condition \"and the pilot light is out\" contradicts the implicit assumption of normal operation in the original statement.",
+            "role": "assistant",
+            "function_call": null,
+            "tool_calls": []
+        }
+    ]
+}
