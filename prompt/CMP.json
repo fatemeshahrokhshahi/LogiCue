@@ -1,0 +1,321 @@
+[
+    ["CMP", 1, "Suppose that the Lakers, Warriors, and Celtics have the best odds to win the NBA championship. Based on expert projections, it is most likely the Lakers will win, followed closely by the Warriors, with the Celtics having much lower odds. These are the only top contenders, so if the Warriors don’t win, then if the Lakers don’t win, the Celtics will win. Moreover, it is most likely the Lakers will win and hence that the Warriors won’t win. Does it follow that it is likely that, if the Lakers don’t win, the Celtics will?"],
+    ["CMP", 2, "Suppose that banana bread, chocolate chip cookies, and carrot cake are the most popular baked goods. According to a consumer survey, it is very likely that banana bread will be the top seller, followed closely by chocolate chip cookies, with carrot cake far behind. These are the only top sellers, so if chocolate chip cookies aren’t the top seller, then if banana bread isn’t, carrot cake will be. Moreover, it is likely banana bread will be top and hence that chocolate chip cookies won’t be. Does it follow that it is likely that, if banana bread isn’t the top seller, carrot cake will be?"],
+    ["CMP", 3, "Suppose that Spain, Brazil, and England have the best chances to win the World Cup. Based on betting odds, it is most likely Spain will win, followed closely by Brazil, with England having much lower odds. These teams have the only realistic chances, so if Brazil doesn’t win, then if Spain doesn’t win, England will win. Moreover, it is likely Spain will win and hence that Brazil won’t win. Does it follow that it is likely that, if Spain doesn’t win, England will?"],
+    ["CMP", 4, "Suppose that Priya, Julian, and Diego have the most impressive resumes for an open management position. The hiring manager thinks it’s most likely Priya will be offered the role, followed by Julian, with Diego being a longshot. These are the only top candidates, so if Julian doesn’t get the offer, then if Priya doesn’t, Diego will. Moreover, it’s likely Priya will get offered the role and hence that Julian won’t. Does it follow that it is likely that, if Priya doesn’t get the offer, Diego will?"],
+    ["CMP", 5, "Suppose that the Democrats, Republicans, and Libertarians are the leading political parties. Based on recent polling, the Democrats likely will gain the most new voters, followed by Republicans, with Libertarians trailing distantly. These are the only major parties, so if Republicans don’t gain the most voters, then if Democrats don’t, Libertarians will. Moreover, Democrats likely will gain the most voters and hence Republicans likely won’t. Does it follow that it is likely that, if Democrats don't gain the most voters, Libertarians will?"],
+    ["CMP", 6, "Suppose that Taylor Swift, Bad Bunny, and Beyonce have the top-selling albums this year. Industry experts project it's likely Taylor Swift's album will sell the most copies, followed closely by Bad Bunny's, with Beyonce's album far behind. These are the only top-sellers, so if Bad Bunny’s album doesn’t sell the most copies, then if Taylor Swift’s doesn’t, Beyonce’s will. Moreover, Taylor Swift’s likely will sell the most and hence Bad Bunny's likely won't. Does it follow that it's likely that, if Taylor Swift's doesn't sell the most copies, Beyonce's will?"],
+    ["CMP", 7, "Suppose that tidal power, solar power, and wind power are the leading renewable energy sources. Forecasts indicate it’s likely tidal power will generate the most electricity this year, followed by solar power, with wind power capacity lagging significantly behind. These are the only major sources, so if solar power doesn’t generate the most electricity, then if tidal power doesn’t, wind power will. Moreover, tidal power likely will generate the most electricity and hence solar power likely won't. Does it follow that it's likely that, if tidal power doesn't generate the most electricity, wind power will?"],
+    ["CMP", 8, "Suppose that India, China, and Russia are the world's leading emerging economies. Economists project it's likely India's economy will grow the fastest this year, followed closely by China's, with Russia's growth rate lagging distantly behind. These are by far the biggest emerging economies, so if China is not the top-growing emerging economy, then if India isn’t, Russia will be. Moreover, India's economy likely will grow the fastest of these three and hence China's likely won't. Does it follow that it's likely that, if India isn’t the top-growing emerging economy, Russia will be?"],
+    ["CMP", 9, "Suppose that apples, bananas, and oranges are the most purchased fruits. According to grocery store data, it’s likely apples will be the top-selling fruit this year, followed closely by bananas, with oranges trailing distantly behind. These are by far the top-selling fruits, so if bananas aren’t the top seller, then if apples aren’t, oranges will be. Moreover, it’s likely apples will be top and hence bananas won’t be. Does it follow that it is likely that, if apples aren’t the top-selling fruit, oranges will be?"],
+    ["CMP", 10, "Suppose that spring, summer, and winter are the most popular travel seasons. Forecasts show it's likely most vacations this year will happen in spring, followed closely by summer, with many fewer happening in the winter. These are by far the top seasons, so if summer doesn't have the most vacations, then if spring doesn't, winter will. Moreover, spring likely will have the most travelers and hence summer likely won't. Does it follow that it's likely that, if spring doesn't have the most vacations, winter will?"],
+    ["CMP", 11, "Suppose that Ford, Toyota, and Honda lead US auto sales. Industry analysis expects Ford will sell the most vehicles this year, followed closely by Toyota, with Honda lagging significantly behind. These brands lead the market, so if Toyota isn’t #1 in sales, then if Ford isn’t, Honda will be. Moreover, Ford likely will lead in sales and hence Toyota likely won’t. Does it follow that it is likely that, if Ford doesn’t lead in sales, Honda will?"],
+    ["CMP", 12, "Suppose that thrillers, romances, and mysteries are the top-selling fiction genres. Publishing data indicates thrillers will likely be the #1 genre this year, followed closely by romances, with mysteries far behind. These genres lead the market, so if romances aren’t #1, then if thrillers aren’t, mysteries will be. Moreover, thrillers likely will lead sales and hence romances likely won’t. Does it follow that it’s likely that, if thrillers aren’t #1, mysteries will be?"],
+    ["CMP", 13, "Suppose that Tennessee, Georgia, and Missouri are projected to have the strongest job growth this year in the US. Economists expect Tennessee likely will add the most jobs, followed closely by Georgia, with Missouri's growth significantly lower. These states lead growth, so if Georgia doesn’t add the most jobs, then if Tennessee doesn’t, Missouri will. Moreover, Tennessee likely will add the most jobs and hence Georgia likely won’t. Does it follow that it’s likely that, if Tennessee doesn’t add the most jobs, Missouri will?"],
+    ["CMP", 14, "Suppose that increases to minimum wage, paid family leave, and student loan forgiveness are the most likely new laws. Only one new law will be passed this session. Congress watchers expect a minimum wage hike is most probable, followed by paid family leave, with loan forgiveness being much less likely. These are the only likely new laws, so if paid leave doesn't happen, then if a minimum wage hike doesn't happen, loan forgiveness will happen. Moreover, a minimum wage hike likely will happen and hence paid leave likely won't happen. Does it follow that it's likely that, if a minimum wage hike doesn't happen, loan forgiveness will?"],
+    ["CMP", 15, "Suppose that the stock market, real estate market, and bond market are the primary investment vehicles. According to financial advisors, the stock market likely will see the highest returns this year, followed by real estate, with bonds having significantly lower expected returns. These markets offer the best investment options, so if real estate doesn’t have the highest returns, then if stocks don’t, bonds will. Moreover, stocks likely will have the highest returns and hence real estate likely won’t. Does it follow that it’s likely that, if stocks don’t have the highest returns, bonds will?"],
+    ["CMP", 16, "Suppose that Uber, Lyft, and taxis are the main transportation options in a city. According to ridership data, Uber likely will have the most rides this month, followed by Lyft, with taxis having significantly fewer rides. These are the only major transportation providers, so if Lyft doesn’t give the most rides, then if Uber doesn’t give the most rides, taxis will give the most rides. Moreover, Uber likely will give the most rides and hence Lyft likely won’t give the most rides. Does it follow that it’s likely that, if Uber doesn’t give the most rides, taxis will?"],
+    ["CMP", 17, "Suppose that the flu, common cold, and strep throat are the most prevalent illnesses this season. Doctors expect the flu likely will infect the most patients, followed by the common cold, with strep infections lagging behind. These are the only major illnesses spreading, so if colds don’t infect the most people, then if flu doesn’t, strep will. Moreover, flu likely will infect the most and hence colds likely won’t. Does it follow that it’s likely that, if flu doesn’t infect the most, strep will?"],
+    ["CMP", 18, "Suppose that pizza, burgers, and tacos are the most frequently ordered takeout foods. According to restaurant data, pizza likely will be the top takeout item ordered, followed by burgers, with tacos ordered much less frequently. These foods lead takeout orders, so if burgers aren’t the top takeout item ordered, then if pizza isn’t, tacos will be. Moreover, pizza likely will lead takeout orders and hence burgers likely won’t. Does it follow that it’s likely that, if pizza isn’t the top takeout item ordered, tacos will be?"],
+    ["CMP", 19, "Suppose that rents, home prices, and mortgage rates are expected to increase this year. Economists project rents likely will increase the most, followed by home prices, with mortgage rates rising much less. These are the only major housing costs expected to rise substantially, so if home prices don’t increase the most, then if rents don’t increase the most, mortgage rates will increase the most. Moreover, rents likely will increase the most and hence home prices likely won’t increase the most. Does it follow that it’s likely that, if rents don’t increase the most, mortgage rates will increase the most?"],
+    ["CMP", 20, "Suppose that coffee, tea, and soda are the most popular morning beverages. Market research indicates coffee likely will retain the most morning drinkers, followed by tea, with soda consumed much less in the mornings. These are the only major morning drinks, so if tea doesn’t retain the most morning drinkers, then if coffee doesn’t retain the most morning drinkers, soda will retain the most morning drinkers. Moreover, coffee likely will retain the most morning drinkers, and hence tea likely won't retain the most morning drinkers. Does it follow that it's likely that, if coffee doesn't retain the most morning drinkers, soda will retain the most morning drinkers?"],[
+    "CMP",
+    21,
+    "Suppose that Python, JavaScript, and Ruby are the most popular programming languages for web development. According to developer surveys, Python likely will be used in the most new projects this year, followed closely by JavaScript, with Ruby being used much less frequently. These are the dominant languages, so if JavaScript isn't used in the most new projects, then if Python isn't, Ruby will be. Moreover, Python likely will be used in the most new projects and hence JavaScript likely won't. Does it follow that it is likely that, if Python isn't used in the most new projects, Ruby will be?"
+  ],
+  [
+    "CMP",
+    22,
+    "Suppose that electric vehicles, hybrid vehicles, and hydrogen vehicles are the leading alternative fuel vehicles. Market analysts predict electric vehicles likely will see the highest sales growth this year, followed by hybrids, with hydrogen vehicles lagging far behind. These are the only major alternative fuel types, so if hybrids don't have the highest sales growth, then if electric vehicles don't, hydrogen vehicles will. Moreover, electric vehicles likely will have the highest sales growth and hence hybrids likely won't. Does it follow that it is likely that, if electric vehicles don't have the highest sales growth, hydrogen vehicles will?"
+  ],
+  [
+    "CMP",
+    23,
+    "Suppose that Harvard, Stanford, and MIT produce the most cited research papers. Academic rankings show Harvard likely will publish the most highly-cited papers this year, followed closely by Stanford, with MIT producing significantly fewer top-cited papers. These institutions dominate research impact, so if Stanford doesn't publish the most highly-cited papers, then if Harvard doesn't, MIT will. Moreover, Harvard likely will publish the most and hence Stanford likely won't. Does it follow that it is likely that, if Harvard doesn't publish the most highly-cited papers, MIT will?"
+  ],
+  [
+    "CMP",
+    24,
+    "Suppose that Netflix, Disney+, and HBO Max are the leading streaming platforms. Industry data suggests Netflix likely will gain the most new subscribers this quarter, followed by Disney+, with HBO Max gaining far fewer. These are the major streaming services, so if Disney+ doesn't gain the most subscribers, then if Netflix doesn't, HBO Max will. Moreover, Netflix likely will gain the most subscribers and hence Disney+ likely won't. Does it follow that it is likely that, if Netflix doesn't gain the most subscribers, HBO Max will?"
+  ],
+  [
+    "CMP",
+    25,
+    "Suppose that solar panels, wind turbines, and geothermal systems are the top residential renewable energy installations. Market forecasts indicate solar panels likely will be installed most frequently this year, followed by wind turbines, with geothermal installations being much rarer. These are the primary home renewable options, so if wind turbines aren't installed most frequently, then if solar panels aren't, geothermal systems will be. Moreover, solar panels likely will be installed most and hence wind turbines likely won't. Does it follow that it is likely that, if solar panels aren't installed most frequently, geothermal systems will be?"
+  ],
+  [
+    "CMP",
+    26,
+    "Suppose that diabetes, heart disease, and cancer are the leading causes of death in developed nations. Health statistics show diabetes likely will cause the most deaths this year, followed closely by heart disease, with cancer causing significantly fewer deaths. These are the top three causes, so if heart disease doesn't cause the most deaths, then if diabetes doesn't, cancer will. Moreover, diabetes likely will cause the most deaths and hence heart disease likely won't. Does it follow that it is likely that, if diabetes doesn't cause the most deaths, cancer will?"
+  ],
+  [
+    "CMP",
+    27,
+    "Suppose that Amazon, Walmart, and Target lead online retail sales. Market research predicts Amazon likely will have the highest online sales this year, followed by Walmart, with Target's online sales lagging significantly. These retailers dominate e-commerce, so if Walmart doesn't have the highest online sales, then if Amazon doesn't, Target will. Moreover, Amazon likely will lead online sales and hence Walmart likely won't. Does it follow that it is likely that, if Amazon doesn't have the highest online sales, Target will?"
+  ],
+  [
+    "CMP",
+    28,
+    "Suppose that Instagram, TikTok, and Snapchat are the fastest-growing social media platforms. User data shows Instagram likely will add the most users this year, followed closely by TikTok, with Snapchat adding far fewer users. These are the major growth platforms, so if TikTok doesn't add the most users, then if Instagram doesn't, Snapchat will. Moreover, Instagram likely will add the most users and hence TikTok likely won't. Does it follow that it is likely that, if Instagram doesn't add the most users, Snapchat will?"
+  ],
+  [
+    "CMP",
+    29,
+    "Suppose that artificial intelligence, blockchain, and quantum computing are the most promising emerging technologies. Tech analysts expect AI likely will receive the most venture capital funding this year, followed by blockchain, with quantum computing receiving much less funding. These are the hottest tech sectors, so if blockchain doesn't get the most funding, then if AI doesn't, quantum computing will. Moreover, AI likely will get the most funding and hence blockchain likely won't. Does it follow that it is likely that, if AI doesn't get the most funding, quantum computing will?"
+  ],
+  [
+    "CMP",
+    30,
+    "Suppose that organic farming, vertical farming, and traditional farming are the leading agricultural methods. Agricultural reports suggest organic farming likely will expand the most acreage this year, followed by vertical farming, with traditional farming expanding much less. These are the primary farming approaches, so if vertical farming doesn't expand the most, then if organic farming doesn't, traditional farming will. Moreover, organic farming likely will expand the most and hence vertical farming likely won't. Does it follow that it is likely that, if organic farming doesn't expand the most, traditional farming will?"
+  ],
+  [
+    "CMP",
+    31,
+    "Suppose that chocolate, vanilla, and strawberry are the best-selling ice cream flavors. Sales data indicates chocolate likely will be the top seller this summer, followed closely by vanilla, with strawberry selling much less. These are by far the most popular flavors, so if vanilla isn't the top seller, then if chocolate isn't, strawberry will be. Moreover, chocolate likely will be the top seller and hence vanilla likely won't. Does it follow that it is likely that, if chocolate isn't the top seller, strawberry will be?"
+  ],
+  [
+    "CMP",
+    32,
+    "Suppose that California, Texas, and Florida have the highest population growth rates. Census projections show California likely will gain the most residents this decade, followed by Texas, with Florida's growth being substantially lower. These states lead in growth, so if Texas doesn't gain the most residents, then if California doesn't, Florida will. Moreover, California likely will gain the most residents and hence Texas likely won't. Does it follow that it is likely that, if California doesn't gain the most residents, Florida will?"
+  ],
+  [
+    "CMP",
+    33,
+    "Suppose that online education, hybrid education, and traditional in-person education are the primary teaching models. Education surveys predict online education likely will enroll the most new students this year, followed by hybrid models, with traditional in-person enrolling far fewer. These are the main educational approaches, so if hybrid education doesn't enroll the most, then if online education doesn't, traditional in-person will. Moreover, online education likely will enroll the most and hence hybrid likely won't. Does it follow that it is likely that, if online education doesn't enroll the most, traditional in-person will?"
+  ],
+  [
+    "CMP",
+    34,
+    "Suppose that cybersecurity, data science, and cloud computing are the most in-demand tech skills. Job market analysis shows cybersecurity likely will have the most job openings this year, followed closely by data science, with cloud computing having significantly fewer openings. These skills dominate tech hiring, so if data science doesn't have the most openings, then if cybersecurity doesn't, cloud computing will. Moreover, cybersecurity likely will have the most openings and hence data science likely won't. Does it follow that it is likely that, if cybersecurity doesn't have the most openings, cloud computing will?"
+  ],
+  [
+    "CMP",
+    35,
+    "Suppose that walking, cycling, and public transit are the most common alternatives to driving. Transportation studies suggest walking likely will be the most frequently used alternative this year, followed by cycling, with public transit used much less often. These are the primary alternatives, so if cycling isn't used most frequently, then if walking isn't, public transit will be. Moreover, walking likely will be used most frequently and hence cycling likely won't. Does it follow that it is likely that, if walking isn't used most frequently, public transit will be?"
+  ],
+  [
+    "CMP",
+    36,
+    "Suppose that podcasts, audiobooks, and radio are the leading audio content formats. Listener data shows podcasts likely will attract the most listening hours this year, followed by audiobooks, with radio attracting far fewer hours. These formats dominate audio consumption, so if audiobooks don't attract the most hours, then if podcasts don't, radio will. Moreover, podcasts likely will attract the most hours and hence audiobooks likely won't. Does it follow that it is likely that, if podcasts don't attract the most hours, radio will?"
+  ],
+  [
+    "CMP",
+    37,
+    "Suppose that remote work, flexible hours, and four-day weeks are the most desired workplace arrangements. Employee surveys indicate remote work likely will be the most requested arrangement this year, followed closely by flexible hours, with four-day weeks requested much less. These are the top workplace preferences, so if flexible hours aren't the most requested, then if remote work isn't, four-day weeks will be. Moreover, remote work likely will be most requested and hence flexible hours likely won't. Does it follow that it is likely that, if remote work isn't the most requested, four-day weeks will be?"
+  ],
+  [
+    "CMP",
+    38,
+    "Suppose that meditation, exercise, and therapy are the most effective stress-reduction methods. Mental health research suggests meditation likely will help the most people reduce stress this year, followed by exercise, with therapy helping significantly fewer people. These are the primary stress-reduction approaches, so if exercise doesn't help the most people, then if meditation doesn't, therapy will. Moreover, meditation likely will help the most people and hence exercise likely won't. Does it follow that it is likely that, if meditation doesn't help the most people, therapy will?"
+  ],
+  [
+    "CMP",
+    39,
+    "Suppose that SUVs, sedans, and trucks are the most purchased vehicle types. Auto sales figures show SUVs likely will be the best-selling vehicle type this year, followed closely by sedans, with trucks selling much less. These are the dominant vehicle categories, so if sedans aren't the best-selling type, then if SUVs aren't, trucks will be. Moreover, SUVs likely will be the best-selling type and hence sedans likely won't. Does it follow that it is likely that, if SUVs aren't the best-selling type, trucks will be?"
+  ],
+  [
+    "CMP",
+    40,
+    "Suppose that science fiction, fantasy, and horror are the top-selling speculative fiction genres. Publishing data indicates science fiction likely will sell the most books this year, followed closely by fantasy, with horror selling far fewer. These genres lead speculative fiction sales, so if fantasy doesn't sell the most, then if science fiction doesn't, horror will. Moreover, science fiction likely will sell the most and hence fantasy likely won't. Does it follow that it is likely that, if science fiction doesn't sell the most, horror will?"
+  ],
+  [
+    "CMP",
+    41,
+    "Suppose that wheat, corn, and soybeans are the most widely cultivated crops globally. Agricultural data shows wheat likely will cover the most farmland this year, followed closely by corn, with soybeans covering significantly less acreage. These are the dominant crops, so if corn doesn't cover the most farmland, then if wheat doesn't, soybeans will. Moreover, wheat likely will cover the most farmland and hence corn likely won't. Does it follow that it is likely that, if wheat doesn't cover the most farmland, soybeans will?"
+  ],
+  [
+    "CMP",
+    42,
+    "Suppose that Facebook, YouTube, and Twitter have the most daily active users among social platforms. Usage statistics suggest Facebook likely will maintain the most daily users this year, followed by YouTube, with Twitter having substantially fewer daily users. These platforms dominate social media, so if YouTube doesn't have the most daily users, then if Facebook doesn't, Twitter will. Moreover, Facebook likely will have the most daily users and hence YouTube likely won't. Does it follow that it is likely that, if Facebook doesn't have the most daily users, Twitter will?"
+  ],
+  [
+    "CMP",
+    43,
+    "Suppose that romance novels, science fiction, and historical fiction are the best-selling adult fiction categories. Bookstore data indicates romance novels likely will sell the most copies this year, followed by science fiction, with historical fiction selling far fewer. These are the leading adult fiction genres, so if science fiction doesn't sell the most, then if romance novels don't, historical fiction will. Moreover, romance novels likely will sell the most and hence science fiction likely won't. Does it follow that it is likely that, if romance novels don't sell the most, historical fiction will?"
+  ],
+  [
+    "CMP",
+    44,
+    "Suppose that skiing, snowboarding, and ice skating are the most popular winter sports. Participation surveys show skiing likely will attract the most participants this season, followed closely by snowboarding, with ice skating attracting far fewer. These are the major winter sports, so if snowboarding doesn't attract the most participants, then if skiing doesn't, ice skating will. Moreover, skiing likely will attract the most participants and hence snowboarding likely won't. Does it follow that it is likely that, if skiing doesn't attract the most participants, ice skating will?"
+  ],
+  [
+    "CMP",
+    45,
+    "Suppose that anxiety, depression, and PTSD are the most commonly diagnosed mental health conditions. Clinical data suggests anxiety likely will be diagnosed most frequently this year, followed by depression, with PTSD diagnosed much less often. These are the leading diagnoses, so if depression isn't diagnosed most frequently, then if anxiety isn't, PTSD will be. Moreover, anxiety likely will be diagnosed most frequently and hence depression likely won't. Does it follow that it is likely that, if anxiety isn't diagnosed most frequently, PTSD will be?"
+  ],
+  [
+    "CMP",
+    46,
+    "Suppose that laptops, tablets, and desktop computers are the primary personal computing devices. Sales figures show laptops likely will be purchased most this year, followed by tablets, with desktop purchases lagging significantly. These are the main computing options, so if tablets aren't purchased most, then if laptops aren't, desktops will be. Moreover, laptops likely will be purchased most and hence tablets likely won't. Does it follow that it is likely that, if laptops aren't purchased most, desktops will be?"
+  ],
+  [
+    "CMP",
+    47,
+    "Suppose that debit cards, credit cards, and cash are the most used payment methods. Transaction data indicates debit cards likely will be used for the most transactions this year, followed closely by credit cards, with cash transactions being much rarer. These dominate payment methods, so if credit cards aren't used most, then if debit cards aren't, cash will be. Moreover, debit cards likely will be used most and hence credit cards likely won't. Does it follow that it is likely that, if debit cards aren't used most, cash will be?"
+  ],
+  [
+    "CMP",
+    48,
+    "Suppose that YouTube, Netflix, and cable TV are the leading video entertainment platforms. Viewership data shows YouTube likely will have the most viewing hours this year, followed by Netflix, with cable TV having significantly fewer hours. These platforms dominate video consumption, so if Netflix doesn't have the most viewing hours, then if YouTube doesn't, cable TV will. Moreover, YouTube likely will have the most viewing hours and hence Netflix likely won't. Does it follow that it is likely that, if YouTube doesn't have the most viewing hours, cable TV will?"
+  ],
+  [
+    "CMP",
+    49,
+    "Suppose that nursing, teaching, and engineering are the most in-demand professions. Job market forecasts suggest nursing likely will have the most job openings this year, followed by teaching, with engineering having considerably fewer openings. These professions lead hiring, so if teaching doesn't have the most openings, then if nursing doesn't, engineering will. Moreover, nursing likely will have the most openings and hence teaching likely won't. Does it follow that it is likely that, if nursing doesn't have the most openings, engineering will?"
+  ],
+  [
+    "CMP",
+    50,
+    "Suppose that ransomware, phishing, and DDoS attacks are the most common cybersecurity threats. Security reports indicate ransomware likely will be the most frequent attack this year, followed closely by phishing, with DDoS attacks occurring much less often. These are the primary threats, so if phishing isn't the most frequent, then if ransomware isn't, DDoS attacks will be. Moreover, ransomware likely will be the most frequent and hence phishing likely won't. Does it follow that it is likely that, if ransomware isn't the most frequent, DDoS attacks will be?"
+  ],
+  [
+    "CMP",
+    51,
+    "Suppose that chicken, beef, and pork are the most consumed meats worldwide. Consumption data shows chicken likely will be eaten most this year, followed by beef, with pork consumption trailing significantly. These are the dominant meat types, so if beef isn't consumed most, then if chicken isn't, pork will be. Moreover, chicken likely will be consumed most and hence beef likely won't. Does it follow that it is likely that, if chicken isn't consumed most, pork will be?"
+  ],
+  [
+    "CMP",
+    52,
+    "Suppose that email, instant messaging, and phone calls are the most common business communication methods. Workplace surveys indicate email likely will be used for the most communications this year, followed by instant messaging, with phone calls used much less frequently. These are the primary communication channels, so if instant messaging isn't used most, then if email isn't, phone calls will be. Moreover, email likely will be used most and hence instant messaging likely won't. Does it follow that it is likely that, if email isn't used most, phone calls will be?"
+  ],
+  [
+    "CMP",
+    53,
+    "Suppose that yoga, pilates, and tai chi are the most popular mind-body exercise practices. Studio enrollment data shows yoga likely will attract the most practitioners this year, followed closely by pilates, with tai chi attracting far fewer. These practices dominate mind-body fitness, so if pilates doesn't attract the most practitioners, then if yoga doesn't, tai chi will. Moreover, yoga likely will attract the most practitioners and hence pilates likely won't. Does it follow that it is likely that, if yoga doesn't attract the most practitioners, tai chi will?"
+  ],
+  [
+    "CMP",
+    54,
+    "Suppose that smartphones, smartwatches, and fitness trackers are the leading wearable and mobile devices. Market share data indicates smartphones likely will dominate device sales this year, followed by smartwatches, with fitness trackers selling much less. These are the main personal tech devices, so if smartwatches don't sell most, then if smartphones don't, fitness trackers will. Moreover, smartphones likely will sell most and hence smartwatches likely won't. Does it follow that it is likely that, if smartphones don't sell most, fitness trackers will?"
+  ],
+  [
+    "CMP",
+    55,
+    "Suppose that wildfires, floods, and hurricanes are the most destructive natural disasters. Damage reports suggest wildfires likely will cause the most property damage this year, followed by floods, with hurricanes causing substantially less damage. These disasters lead in destruction, so if floods don't cause the most damage, then if wildfires don't, hurricanes will. Moreover, wildfires likely will cause the most damage and hence floods likely won't. Does it follow that it is likely that, if wildfires don't cause the most damage, hurricanes will?"
+  ],
+  [
+    "CMP",
+    56,
+    "Suppose that Bachelor's degrees, Master's degrees, and PhDs are the most pursued higher education credentials. Enrollment statistics show Bachelor's degrees likely will be pursued most this year, followed by Master's degrees, with PhDs being pursued much less frequently. These are the main academic degrees, so if Master's degrees aren't pursued most, then if Bachelor's degrees aren't, PhDs will be. Moreover, Bachelor's degrees likely will be pursued most and hence Master's degrees likely won't. Does it follow that it is likely that, if Bachelor's degrees aren't pursued most, PhDs will be?"
+  ],
+  [
+    "CMP",
+    57,
+    "Suppose that Spotify, Apple Music, and Amazon Music are the leading music streaming services. Subscriber counts indicate Spotify likely will have the most subscribers this year, followed closely by Apple Music, with Amazon Music having significantly fewer. These services dominate music streaming, so if Apple Music doesn't have the most subscribers, then if Spotify doesn't, Amazon Music will. Moreover, Spotify likely will have the most subscribers and hence Apple Music likely won't. Does it follow that it is likely that, if Spotify doesn't have the most subscribers, Amazon Music will?"
+  ],
+  [
+    "CMP",
+    58,
+    "Suppose that colorectal cancer, lung cancer, and prostate cancer see the highest screening rates. Medical screening data shows colorectal cancer likely will have the most screenings this year, followed by lung cancer, with prostate cancer screenings lagging behind. These are the most screened cancers, so if lung cancer doesn't have the most screenings, then if colorectal cancer doesn't, prostate cancer will. Moreover, colorectal cancer likely will have the most screenings and hence lung cancer likely won't. Does it follow that it is likely that, if colorectal cancer doesn't have the most screenings, prostate cancer will?"
+  ],
+  [
+    "CMP",
+    59,
+    "Suppose that Bitcoin, Ethereum, and Cardano are the most traded cryptocurrencies. Trading volume data indicates Bitcoin likely will have the highest trading volume this year, followed by Ethereum, with Cardano's volume being much lower. These cryptocurrencies dominate trading, so if Ethereum doesn't have the highest volume, then if Bitcoin doesn't, Cardano will. Moreover, Bitcoin likely will have the highest volume and hence Ethereum likely won't. Does it follow that it is likely that, if Bitcoin doesn't have the highest volume, Cardano will?"
+  ],
+  [
+    "CMP",
+    60,
+    "Suppose that action movies, comedies, and dramas are the most popular film genres at the box office. Ticket sales show action movies likely will sell the most tickets this year, followed closely by comedies, with dramas selling far fewer tickets. These genres lead box office sales, so if comedies don't sell the most tickets, then if action movies don't, dramas will. Moreover, action movies likely will sell the most tickets and hence comedies likely won't. Does it follow that it is likely that, if action movies don't sell the most tickets, dramas will?"
+  ],
+  [
+    "CMP",
+    61,
+    "Suppose that reading, watching TV, and playing video games are the most common leisure activities. Time-use surveys suggest reading likely will occupy the most leisure hours this year, followed by watching TV, with video gaming taking up significantly less time. These activities dominate free time, so if watching TV doesn't occupy the most hours, then if reading doesn't, video gaming will. Moreover, reading likely will occupy the most hours and hence watching TV likely won't. Does it follow that it is likely that, if reading doesn't occupy the most hours, video gaming will?"
+  ],
+  [
+    "CMP",
+    62,
+    "Suppose that malaria, tuberculosis, and HIV are the most prevalent infectious diseases in developing nations. Health statistics indicate malaria likely will infect the most people this year, followed by tuberculosis, with HIV infections being substantially lower. These diseases are the leading infections, so if tuberculosis doesn't infect the most people, then if malaria doesn't, HIV will. Moreover, malaria likely will infect the most people and hence tuberculosis likely won't. Does it follow that it is likely that, if malaria doesn't infect the most people, HIV will?"
+  ],
+  [
+    "CMP",
+    63,
+    "Suppose that sedans, coupes, and convertibles are the most popular passenger car body styles. Auto sales data shows sedans likely will be the best-selling body style this year, followed by coupes, with convertibles selling much less. These body styles dominate passenger cars, so if coupes aren't the best-selling style, then if sedans aren't, convertibles will be. Moreover, sedans likely will be the best-selling style and hence coupes likely won't. Does it follow that it is likely that, if sedans aren't the best-selling style, convertibles will be?"
+  ],
+  [
+    "CMP",
+    64,
+    "Suppose that parks, museums, and theaters are the most visited cultural venues. Visitor data indicates parks likely will receive the most visitors this year, followed closely by museums, with theaters receiving far fewer visitors. These venues lead cultural attendance, so if museums don't receive the most visitors, then if parks don't, theaters will. Moreover, parks likely will receive the most visitors and hence museums likely won't. Does it follow that it is likely that, if parks don't receive the most visitors, theaters will?"
+  ],
+  [
+    "CMP",
+    65,
+    "Suppose that Amazon Web Services, Microsoft Azure, and Google Cloud are the leading cloud computing platforms. Market analysis shows AWS likely will generate the most revenue this year, followed by Azure, with Google Cloud generating significantly less. These platforms dominate cloud computing, so if Azure doesn't generate the most revenue, then if AWS doesn't, Google Cloud will. Moreover, AWS likely will generate the most revenue and hence Azure likely won't. Does it follow that it is likely that, if AWS doesn't generate the most revenue, Google Cloud will?"
+  ],
+  [
+    "CMP",
+    66,
+    "Suppose that high blood pressure, high cholesterol, and diabetes are the most common chronic conditions. Health records show high blood pressure likely will affect the most patients this year, followed by high cholesterol, with diabetes affecting substantially fewer. These conditions dominate chronic disease, so if high cholesterol doesn't affect the most patients, then if high blood pressure doesn't, diabetes will. Moreover, high blood pressure likely will affect the most patients and hence high cholesterol likely won't. Does it follow that it is likely that, if high blood pressure doesn't affect the most patients, diabetes will?"
+  ],
+  [
+    "CMP",
+    67,
+    "Suppose that LinkedIn, Indeed, and Monster are the most used job search platforms. User activity shows LinkedIn likely will facilitate the most job searches this year, followed closely by Indeed, with Monster facilitating far fewer. These platforms dominate job hunting, so if Indeed doesn't facilitate the most searches, then if LinkedIn doesn't, Monster will. Moreover, LinkedIn likely will facilitate the most searches and hence Indeed likely won't. Does it follow that it is likely that, if LinkedIn doesn't facilitate the most searches, Monster will?"
+  ],
+  [
+    "CMP",
+    68,
+    "Suppose that salads, sandwiches, and soups are the most ordered lunch items. Restaurant data indicates salads likely will be ordered most for lunch this year, followed by sandwiches, with soups ordered much less frequently. These items dominate lunch orders, so if sandwiches aren't ordered most, then if salads aren't, soups will be. Moreover, salads likely will be ordered most and hence sandwiches likely won't. Does it follow that it is likely that, if salads aren't ordered most, soups will be?"
+  ],
+  [
+    "CMP",
+    69,
+    "Suppose that JavaScript frameworks React, Angular, and Vue are the most adopted for web development. Developer surveys show React likely will be adopted most for new projects this year, followed by Angular, with Vue adopted much less. These frameworks lead web development, so if Angular isn't adopted most, then if React isn't, Vue will be. Moreover, React likely will be adopted most and hence Angular likely won't. Does it follow that it is likely that, if React isn't adopted most, Vue will be?"
+  ],
+  [
+    "CMP",
+    70,
+    "Suppose that jogging, swimming, and cycling are the most popular cardiovascular exercises. Fitness tracking data shows jogging likely will be performed most this year, followed closely by swimming, with cycling performed significantly less. These exercises dominate cardio workouts, so if swimming isn't performed most, then if jogging isn't, cycling will be. Moreover, jogging likely will be performed most and hence swimming likely won't. Does it follow that it is likely that, if jogging isn't performed most, cycling will be?"
+  ],
+  [
+    "CMP",
+    71,
+    "Suppose that Zoom, Microsoft Teams, and Google Meet are the leading video conferencing platforms. Usage metrics indicate Zoom likely will host the most meetings this year, followed by Teams, with Google Meet hosting far fewer. These platforms dominate video calls, so if Teams doesn't host the most meetings, then if Zoom doesn't, Google Meet will. Moreover, Zoom likely will host the most meetings and hence Teams likely won't. Does it follow that it is likely that, if Zoom doesn't host the most meetings, Google Meet will?"
+  ],
+  [
+    "CMP",
+    72,
+    "Suppose that mystery books, thriller books, and horror books are the top-selling suspense genres. Sales data shows mystery books likely will sell the most copies this year, followed closely by thrillers, with horror selling far fewer. These genres lead suspense fiction, so if thrillers don't sell the most, then if mysteries don't, horror will. Moreover, mysteries likely will sell the most and hence thrillers likely won't. Does it follow that it is likely that, if mysteries don't sell the most, horror will?"
+  ],
+  [
+    "CMP",
+    73,
+    "Suppose that public universities, private universities, and community colleges enroll the most students. Enrollment statistics show public universities likely will enroll the most students this year, followed by private universities, with community colleges enrolling substantially fewer. These institutions dominate higher education, so if private universities don't enroll the most, then if public universities don't, community colleges will. Moreover, public universities likely will enroll the most and hence private universities likely won't. Does it follow that it is likely that, if public universities don't enroll the most, community colleges will?"
+  ],
+  [
+    "CMP",
+    74,
+    "Suppose that weight loss, muscle gain, and improved endurance are the most common fitness goals. Survey data indicates weight loss likely will be the most pursued goal this year, followed by muscle gain, with improved endurance pursued much less. These are the primary fitness objectives, so if muscle gain isn't pursued most, then if weight loss isn't, improved endurance will be. Moreover, weight loss likely will be pursued most and hence muscle gain likely won't. Does it follow that it is likely that, if weight loss isn't pursued most, improved endurance will be?"
+  ],
+  [
+    "CMP",
+    75,
+    "Suppose that WordPress, Wix, and Squarespace are the most popular website building platforms. Usage statistics show WordPress likely will power the most new websites this year, followed by Wix, with Squarespace powering far fewer. These platforms dominate website creation, so if Wix doesn't power the most sites, then if WordPress doesn't, Squarespace will. Moreover, WordPress likely will power the most sites and hence Wix likely won't. Does it follow that it is likely that, if WordPress doesn't power the most sites, Squarespace will?"
+  ],
+  [
+    "CMP",
+    76,
+    "Suppose that back pain, neck pain, and shoulder pain are the most reported musculoskeletal complaints. Medical visit data shows back pain likely will generate the most doctor visits this year, followed closely by neck pain, with shoulder pain generating far fewer visits. These complaints dominate musculoskeletal issues, so if neck pain doesn't generate the most visits, then if back pain doesn't, shoulder pain will. Moreover, back pain likely will generate the most visits and hence neck pain likely won't. Does it follow that it is likely that, if back pain doesn't generate the most visits, shoulder pain will?"
+  ],
+  [
+    "CMP",
+    77,
+    "Suppose that Italian, Chinese, and Mexican are the most popular international cuisines. Restaurant popularity data indicates Italian likely will be the most popular cuisine this year, followed by Chinese, with Mexican cuisine being significantly less popular. These cuisines lead international dining, so if Chinese isn't the most popular, then if Italian isn't, Mexican will be. Moreover, Italian likely will be the most popular and hence Chinese likely won't. Does it follow that it is likely that, if Italian isn't the most popular, Mexican will be?"
+  ],
+  [
+    "CMP",
+    78,
+    "Suppose that Master's in Business Administration, Master's in Education, and Master's in Computer Science are the most pursued graduate degrees. Graduate school applications show MBA likely will receive the most applications this year, followed by Education, with Computer Science receiving substantially fewer. These are the top graduate programs, so if Education doesn't receive the most applications, then if MBA doesn't, Computer Science will. Moreover, MBA likely will receive the most applications and hence Education likely won't. Does it follow that it is likely that, if MBA doesn't receive the most applications, Computer Science will?"
+  ],
+  [
+    "CMP",
+    79,
+    "Suppose that search engine marketing, social media marketing, and email marketing are the most effective digital marketing channels. ROI studies suggest search engine marketing likely will deliver the best returns this year, followed closely by social media, with email marketing delivering much lower returns. These channels dominate digital marketing, so if social media doesn't deliver the best returns, then if search engine marketing doesn't, email marketing will. Moreover, search engine marketing likely will deliver the best returns and hence social media likely won't. Does it follow that it is likely that, if search engine marketing doesn't deliver the best returns, email marketing will?"
+  ],
+  [
+    "CMP",
+    80,
+    "Suppose that acrylic, oil, and watercolor are the most used painting mediums by artists. Art supply sales indicate acrylic likely will be purchased most this year, followed by oil paints, with watercolors purchased much less. These mediums dominate painting, so if oil paints aren't purchased most, then if acrylics aren't, watercolors will be. Moreover, acrylics likely will be purchased most and hence oil paints likely won't. Does it follow that it is likely that, if acrylics aren't purchased most, watercolors will be?"
+  ]
+]

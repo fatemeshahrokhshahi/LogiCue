@@ -1,0 +1,201 @@
+[["MTmu", 1, "From 'If Mary was at the wedding, then Sue must have been at the wedding' together with 'It's not the case that Sue must have been at the wedding', can we infer 'Mary was not at the wedding'?"], ["MTmu", 2, "From 'If the griffin was in the forest, then the unicorn must have been in the forest' together with 'It's not the case that the unicorn must have been in the forest', can we infer 'The griffin was not in the forest'?"], ["MTmu", 3, "From 'If the book was written by James, then the book must be a mystery novel' together with 'It's not the case that the book must be a mystery novel', can we infer 'The book was not written by James'?"], ["MTmu", 4, "From 'If the alien visited Mars, then the robot must have visited Jupiter' together with 'It's not the case that the robot must have visited Jupiter', can we infer 'The alien did not visit Mars'?"], ["MTmu", 5, "From 'If Jeff played basketball, then Amy must have played tennis' together with 'It's not the case that Amy must have played tennis', can we infer 'Jeff did not play basketball'?"], ["MTmu", 6, "From 'If Sue chose pizza, then Bob must have chosen pasta' together with 'It's not the case that Bob must have chosen pasta', can we infer 'Sue did not choose pizza'?"], ["MTmu", 7, "From 'If Alex finished the race, then Chris must have finished the race' together with 'It's not the case that Chris must have finished the face', can we infer 'Alex did not finish the race'?"], ["MTmu", 8, "From 'If the vampire was awake, then the mummy must have been awake' together with 'It's not the case that the mummy must have been awake', can we infer 'The vampire was not awake'?"], ["MTmu", 9, "From 'If Lisa bought the red shirt, then Mark must have bought the blue shirt' together with 'It's not the case that Mark must have bought the blue shirt', can we infer 'Lisa did not buy the red shirt'?"], ["MTmu", 10, "From 'If the dog was inside, then the cat must have been outside' together with 'It's not the case that the cat must have been outside', can we infer 'The dog was not inside'?"], ["MTmu", 11, "From 'If the cake was chocolate, then the muffins must have been blueberry' together with 'It's not the case that the muffins must have been blueberry', can we infer 'The cake was not chocolate'?"], ["MTmu", 12, "From 'If Joe went to the park, then Lucy must have gone to the zoo' together with 'It's not the case that Lucy must have gone to the zoo', can we infer 'Joe did not go to the park'?"], ["MTmu", 13, "From 'If the car was red, then the truck must have been blue' together with 'It's not the case that the truck must have been blue', can we infer 'The car was not red'?"], ["MTmu", 14, "From 'If the bear was in the cave, then the wolf must have been in the den' together with 'It's not the case that the wolf must have been in the den', can we infer 'The bear was not in the cave'?"], ["MTmu", 15, "From 'If Sam took a plane, then Erin must have taken a train' together with 'It's not the case that Erin must have taken a train', can we infer 'Sam did not take a plane'?"], ["MTmu", 16, "From 'If the shirt was cotton, then the pants must have been denim' together with 'It's not the case that the pants must have been denim', can we infer 'The shirt was not cotton'?"], ["MTmu", 17, "From 'If Ben ate pasta, then Kate must have eaten the salad' together with 'It's not the case that Kate must have eaten the salad', can we infer 'Ben did not eat pasta'?"], ["MTmu", 18, "From 'If the doll was plastic, then the truck must have been metal' together with 'It's not the case that the truck must have been metal', can we infer 'The doll was not plastic'?"], ["MTmu", 19, "From 'If Tom watched football, then Jen must have watched basketball' together with 'It's not the case that Jen must have watched basketball', can we infer 'Tom did not watch football'?"],["MTmu", 20, "From 'If the apple was red, then the banana must have been yellow' together with 'It's not the case that the banana must have been yellow', can we infer 'The apple was not red'?"],["MTmu", 21, "From 'If the chemical reaction occurred, then heat must have been generated' together with 'It's not the case that heat must have been generated', can we infer 'The chemical reaction did not occur'?"],["MTmu", 22, "From 'If Sarah received the certification, then Sarah must have passed the exam' together with 'It's not the case that Sarah must have passed the exam', can we infer 'Sarah did not receive the certification'?"],["MTmu", 23, "From 'If the law was violated, then a fine must have been issued' together with 'It's not the case that a fine must have been issued', can we infer 'The law was not violated'?"],["MTmu", 24, "From 'If the machine is operational, then the power must be on' together with 'It's not the case that the power must be on', can we infer 'The machine is not operational'?"],["MTmu", 25, "From 'If Jake attended the training, then Jake must have registered in advance' together with 'It's not the case that Jake must have registered in advance', can we infer 'Jake did not attend the training'?"],["MTmu", 26, "From 'If the building collapsed, then structural damage must have occurred' together with 'It's not the case that structural damage must have occurred', can we infer 'The building did not collapse'?"],["MTmu", 27, "From 'If the data was corrupted, then an error message must have appeared' together with 'It's not the case that an error message must have appeared', can we infer 'The data was not corrupted'?"],["MTmu", 28, "From 'If Emma made the payment, then a receipt must have been issued' together with 'It's not the case that a receipt must have been issued', can we infer 'Emma did not make the payment'?"],["MTmu", 29, "From 'If the hypothesis is correct, then the predicted results must have been observed' together with 'It's not the case that the predicted results must have been observed', can we infer 'The hypothesis is not correct'?"],["MTmu", 30, "From 'If Rachel accepted the job offer, then Rachel must have signed the contract' together with 'It's not the case that Rachel must have signed the contract', can we infer 'Rachel did not accept the job offer'?"],["MTmu", 31, "From 'If the alarm was triggered, then sensors must have detected motion' together with 'It's not the case that sensors must have detected motion', can we infer 'The alarm was not triggered'?"],["MTmu", 32, "From 'If David committed the crime, then David must have been at the scene' together with 'It's not the case that David must have been at the scene', can we infer 'David did not commit the crime'?"],["MTmu", 33, "From 'If the policy changed, then stakeholders must have been notified' together with 'It's not the case that stakeholders must have been notified', can we infer 'The policy did not change'?"],["MTmu", 34, "From 'If Nicole completed the course, then Nicole must have submitted all assignments' together with 'It's not the case that Nicole must have submitted all assignments', can we infer 'Nicole did not complete the course'?"],["MTmu", 35, "From 'If the virus infected the system, then files must have been encrypted' together with 'It's not the case that files must have been encrypted', can we infer 'The virus did not infect the system'?"],["MTmu", 36, "From 'If Kevin won the election, then Kevin must have received the majority of votes' together with 'It's not the case that Kevin must have received the majority of votes', can we infer 'Kevin did not win the election'?"],["MTmu", 37, "From 'If the plant died, then it must have lacked water or sunlight' together with 'It's not the case that it must have lacked water or sunlight', can we infer 'The plant did not die'?"],["MTmu", 38, "From 'If Michelle qualified for the tournament, then Michelle must have won the qualifying round' together with 'It's not the case that Michelle must have won the qualifying round', can we infer 'Michelle did not qualify for the tournament'?"],["MTmu", 39, "From 'If the product was recalled, then customers must have been informed' together with 'It's not the case that customers must have been informed', can we infer 'The product was not recalled'?"],["MTmu", 40, "From 'If Brian inherited the estate, then the will must have been executed' together with 'It's not the case that the will must have been executed', can we infer 'Brian did not inherit the estate'?"],
+[
+    "MTmu",
+    41,
+    "From 'If the experiment was successful, then the results must have been replicated' together with 'It's not the case that the results must have been replicated', can we infer 'The experiment was not successful'?"
+  ],
+  [
+    "MTmu",
+    42,
+    "From 'If Patricia graduated, then Patricia must have completed all course requirements' together with 'It's not the case that Patricia must have completed all course requirements', can we infer 'Patricia did not graduate'?"
+  ],
+  [
+    "MTmu",
+    43,
+    "From 'If the treaty was ratified, then all signatories must have approved it' together with 'It's not the case that all signatories must have approved it', can we infer 'The treaty was not ratified'?"
+  ],
+  [
+    "MTmu",
+    44,
+    "From 'If the system rebooted, then the updates must have been installed' together with 'It's not the case that the updates must have been installed', can we infer 'The system did not reboot'?"
+  ],
+  [
+    "MTmu",
+    45,
+    "From 'If Thomas earned the degree, then Thomas must have defended the thesis' together with 'It's not the case that Thomas must have defended the thesis', can we infer 'Thomas did not earn the degree'?"
+  ],
+  [
+    "MTmu",
+    46,
+    "From 'If the merger occurred, then regulatory approval must have been granted' together with 'It's not the case that regulatory approval must have been granted', can we infer 'The merger did not occur'?"
+  ],
+  [
+    "MTmu",
+    47,
+    "From 'If the vaccine works, then antibodies must have been produced' together with 'It's not the case that antibodies must have been produced', can we infer 'The vaccine does not work'?"
+  ],
+  [
+    "MTmu",
+    48,
+    "From 'If Margaret was promoted, then Margaret must have received excellent evaluations' together with 'It's not the case that Margaret must have received excellent evaluations', can we infer 'Margaret was not promoted'?"
+  ],
+  [
+    "MTmu",
+    49,
+    "From 'If the launch succeeded, then all systems must have been operational' together with 'It's not the case that all systems must have been operational', can we infer 'The launch did not succeed'?"
+  ],
+  [
+    "MTmu",
+    50,
+    "From 'If Richard was elected, then Richard must have won the majority' together with 'It's not the case that Richard must have won the majority', can we infer 'Richard was not elected'?"
+  ],
+  [
+    "MTmu",
+    51,
+    "From 'If the diagnosis is correct, then the symptoms must have matched the disease' together with 'It's not the case that the symptoms must have matched the disease', can we infer 'The diagnosis is not correct'?"
+  ],
+  [
+    "MTmu",
+    52,
+    "From 'If Catherine passed the bar exam, then Catherine must have studied extensively' together with 'It's not the case that Catherine must have studied extensively', can we infer 'Catherine did not pass the bar exam'?"
+  ],
+  [
+    "MTmu",
+    53,
+    "From 'If the species went extinct, then its habitat must have been destroyed' together with 'It's not the case that its habitat must have been destroyed', can we infer 'The species did not go extinct'?"
+  ],
+  [
+    "MTmu",
+    54,
+    "From 'If Gregory won the case, then the evidence must have been compelling' together with 'It's not the case that the evidence must have been compelling', can we infer 'Gregory did not win the case'?"
+  ],
+  [
+    "MTmu",
+    55,
+    "From 'If the bridge collapsed, then structural failure must have occurred' together with 'It's not the case that structural failure must have occurred', can we infer 'The bridge did not collapse'?"
+  ],
+  [
+    "MTmu",
+    56,
+    "From 'If Amanda was awarded the grant, then Amanda must have submitted a strong proposal' together with 'It's not the case that Amanda must have submitted a strong proposal', can we infer 'Amanda was not awarded the grant'?"
+  ],
+  [
+    "MTmu",
+    57,
+    "From 'If the defendant was convicted, then the jury must have found guilt beyond reasonable doubt' together with 'It's not the case that the jury must have found guilt beyond reasonable doubt', can we infer 'The defendant was not convicted'?"
+  ],
+  [
+    "MTmu",
+    58,
+    "From 'If Timothy achieved certification, then Timothy must have passed all the tests' together with 'It's not the case that Timothy must have passed all the tests', can we infer 'Timothy did not achieve certification'?"
+  ],
+  [
+    "MTmu",
+    59,
+    "From 'If the company went bankrupt, then it must have exhausted all assets' together with 'It's not the case that it must have exhausted all assets', can we infer 'The company did not go bankrupt'?"
+  ],
+  [
+    "MTmu",
+    60,
+    "From 'If Rebecca secured the patent, then Rebecca must have filed the application' together with 'It's not the case that Rebecca must have filed the application', can we infer 'Rebecca did not secure the patent'?"
+  ],
+  [
+    "MTmu",
+    61,
+    "From 'If the epidemic spread, then containment measures must have failed' together with 'It's not the case that containment measures must have failed', can we infer 'The epidemic did not spread'?"
+  ],
+  [
+    "MTmu",
+    62,
+    "From 'If Steven was admitted, then Steven must have met all admission criteria' together with 'It's not the case that Steven must have met all admission criteria', can we infer 'Steven was not admitted'?"
+  ],
+  [
+    "MTmu",
+    63,
+    "From 'If the transaction completed, then verification must have been successful' together with 'It's not the case that verification must have been successful', can we infer 'The transaction did not complete'?"
+  ],
+  [
+    "MTmu",
+    64,
+    "From 'If Jennifer obtained tenure, then Jennifer must have published significant research' together with 'It's not the case that Jennifer must have published significant research', can we infer 'Jennifer did not obtain tenure'?"
+  ],
+  [
+    "MTmu",
+    65,
+    "From 'If the reactor melted down, then safety systems must have failed' together with 'It's not the case that safety systems must have failed', can we infer 'The reactor did not melt down'?"
+  ],
+  [
+    "MTmu",
+    66,
+    "From 'If Nathan won the scholarship, then Nathan must have demonstrated exceptional merit' together with 'It's not the case that Nathan must have demonstrated exceptional merit', can we infer 'Nathan did not win the scholarship'?"
+  ],
+  [
+    "MTmu",
+    67,
+    "From 'If the appeal was granted, then procedural errors must have been found' together with 'It's not the case that procedural errors must have been found', can we infer 'The appeal was not granted'?"
+  ],
+  [
+    "MTmu",
+    68,
+    "From 'If Linda received the award, then Linda must have been nominated' together with 'It's not the case that Linda must have been nominated', can we infer 'Linda did not receive the award'?"
+  ],
+  [
+    "MTmu",
+    69,
+    "From 'If the sample was contaminated, then sterile protocols must have been violated' together with 'It's not the case that sterile protocols must have been violated', can we infer 'The sample was not contaminated'?"
+  ],
+  [
+    "MTmu",
+    70,
+    "From 'If Charles was appointed, then Charles must have been recommended by the committee' together with 'It's not the case that Charles must have been recommended by the committee', can we infer 'Charles was not appointed'?"
+  ],
+  [
+    "MTmu",
+    71,
+    "From 'If the project was cancelled, then funding must have been withdrawn' together with 'It's not the case that funding must have been withdrawn', can we infer 'The project was not cancelled'?"
+  ],
+  [
+    "MTmu",
+    72,
+    "From 'If Monica achieved tenure, then Monica must have satisfied all requirements' together with 'It's not the case that Monica must have satisfied all requirements', can we infer 'Monica did not achieve tenure'?"
+  ],
+  [
+    "MTmu",
+    73,
+    "From 'If the treaty expired, then the deadline must have passed' together with 'It's not the case that the deadline must have passed', can we infer 'The treaty did not expire'?"
+  ],
+  [
+    "MTmu",
+    74,
+    "From 'If Anthony was impeached, then misconduct must have been proven' together with 'It's not the case that misconduct must have been proven', can we infer 'Anthony was not impeached'?"
+  ],
+  [
+    "MTmu",
+    75,
+    "From 'If the organism died, then essential conditions must have been absent' together with 'It's not the case that essential conditions must have been absent', can we infer 'The organism did not die'?"
+  ],
+  [
+    "MTmu",
+    76,
+    "From 'If Samantha was licensed, then Samantha must have completed training' together with 'It's not the case that Samantha must have completed training', can we infer 'Samantha was not licensed'?"
+  ],
+  [
+    "MTmu",
+    77,
+    "From 'If the protest succeeded, then public support must have been widespread' together with 'It's not the case that public support must have been widespread', can we infer 'The protest did not succeed'?"
+  ],
+  [
+    "MTmu",
+    78,
+    "From 'If Edward was cleared, then the investigation must have found no wrongdoing' together with 'It's not the case that the investigation must have found no wrongdoing', can we infer 'Edward was not cleared'?"
+  ],
+  [
+    "MTmu",
+    79,
+    "From 'If the volcano erupted, then pressure must have exceeded containment' together with 'It's not the case that pressure must have exceeded containment', can we infer 'The volcano did not erupt'?"
+  ],
+  [
+    "MTmu",
+    80,
+    "From 'If Christine was vindicated, then the allegations must have been disproven' together with 'It's not the case that the allegations must have been disproven', can we infer 'Christine was not vindicated'?"
+  ]]

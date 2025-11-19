@@ -1,0 +1,300 @@
+[["CT", 1, "From 'If Mary was at the wedding, then Sue was at the wedding', can we infer 'If Sue was not at the wedding, then Mary was not at the wedding'?"], ["CT", 2, "From 'If the griffin was in the forest, then the unicorn was in the forest', can we infer 'If the unicorn was not in the forest, then the griffin was not in the forest'?"], ["CT", 3, "From 'If the book was written by James, then the book is a mystery novel', can we infer 'If the book is not a mystery novel, then the book was not written by James'?"], ["CT", 4, "From 'If the alien visited Mars, then the robot visited Jupiter', can we infer 'If the robot did not visit Jupiter, then the alien did not visit Mars'?"], ["CT", 5, "From 'If Jeff played basketball, then Amy played tennis', can we infer 'If Amy did not play tennis, then Jeff did not play basketball'?"], ["CT", 6, "From 'If Sue chose pizza, then Bob chose pasta', can we infer 'If Bob did not choose pasta, then Sue did not choose pizza'?"], ["CT", 7, "From 'If Alex finished the race, then Chris finished the race', can we infer 'If Chris did not finish the race, then Alex did not finish the race?'"], ["CT", 8, "From 'If the vampire was awake, then the mummy was awake', can we infer 'If the mummy was not awake, then the vampire was not awake'?"], ["CT", 9, "From 'If Lisa bought the red shirt, then Mark bought the blue shirt', can we infer 'If Mark did not buy the blue shirt, then Lisa did not buy the red shirt'?"], ["CT", 10, "From 'If the dog was inside, then the cat was outside', can we infer 'If the cat was not outside, then the dog was not inside'?"], ["CT", 11, "From 'If the cake was chocolate, then the muffins were blueberry', can we infer 'If the muffins were not blueberry, then the cake was not chocolate'?"], ["CT", 12, "From 'If Joe went to the park, then Lucy went to the zoo', can we infer 'If Lucy did not go to the zoo, then Joe did not go to the park'?"], ["CT", 13, "From 'If the car was red, then the truck was blue', can we infer 'If the truck was not blue, then the car was not red'?"], ["CT", 14, "From 'If the bear was in the cave, then the wolf was in the den', can we infer 'If the wolf was not in the den, then the bear was not in the cave'?"], ["CT", 15, "From 'If Sam took a plane, then Erin took a train', can we infer 'If Erin did not take a train, then Sam did not take a plane'?"], ["CT", 16, "From 'If the shirt was cotton, then the pants were denim', can we infer 'If the pants were not denim, then the shirt was not cotton'?"], ["CT", 17, "From 'If Ben ate pasta, then Kate ate the salad', can we infer 'If Kate did not eat the salad, then Ben did not eat pasta'?"], ["CT", 18, "From 'If the doll was plastic, then the truck was metal', can we infer 'If the truck was not metal, then the doll was not plastic'?"], ["CT", 19, "From 'If Tom watched football, then Jen watched basketball', can we infer 'If Jen did not watch basketball, then Tom did not watch football'?"], ["CT", 20, "From 'If the apple was red, then the banana was yellow', can we infer 'If the banana was not yellow, then the apple was not red'?"],[
+    "CT",
+    21,
+    "From 'If the experiment succeeded, then the hypothesis was correct', can we infer 'If the hypothesis was not correct, then the experiment did not succeed'?"
+  ],
+  [
+    "CT",
+    22,
+    "From 'If Sarah has a PhD, then Sarah completed a dissertation', can we infer 'If Sarah did not complete a dissertation, then Sarah does not have a PhD'?"
+  ],
+  [
+    "CT",
+    23,
+    "From 'If the student passed the prerequisite, then the student can enroll in the advanced course', can we infer 'If the student cannot enroll in the advanced course, then the student did not pass the prerequisite'?"
+  ],
+  [
+    "CT",
+    24,
+    "From 'If the software is installed, then the program will run', can we infer 'If the program will not run, then the software is not installed'?"
+  ],
+  [
+    "CT",
+    25,
+    "From 'If the element is a metal, then it conducts electricity', can we infer 'If the element does not conduct electricity, then it is not a metal'?"
+  ],
+  [
+    "CT",
+    26,
+    "From 'If Jake received the promotion, then Jake met all the requirements', can we infer 'If Jake did not meet all the requirements, then Jake did not receive the promotion'?"
+  ],
+  [
+    "CT",
+    27,
+    "From 'If the building is a skyscraper, then it has more than 40 floors', can we infer 'If the building does not have more than 40 floors, then it is not a skyscraper'?"
+  ],
+  [
+    "CT",
+    28,
+    "From 'If the device is waterproof, then it can be submerged', can we infer 'If the device cannot be submerged, then it is not waterproof'?"
+  ],
+  [
+    "CT",
+    29,
+    "From 'If Emma is a member, then Emma paid the dues', can we infer 'If Emma did not pay the dues, then Emma is not a member'?"
+  ],
+  [
+    "CT",
+    30,
+    "From 'If the number is prime, then it has exactly two factors', can we infer 'If the number does not have exactly two factors, then it is not prime'?"
+  ],
+  [
+    "CT",
+    31,
+    "From 'If the restaurant has a Michelin star, then the food is excellent', can we infer 'If the food is not excellent, then the restaurant does not have a Michelin star'?"
+  ],
+  [
+    "CT",
+    32,
+    "From 'If the document is classified, then it requires clearance to view', can we infer 'If it does not require clearance to view, then the document is not classified'?"
+  ],
+  [
+    "CT",
+    33,
+    "From 'If Rachel learned to swim, then Rachel took lessons', can we infer 'If Rachel did not take lessons, then Rachel did not learn to swim'?"
+  ],
+  [
+    "CT",
+    34,
+    "From 'If the battery is lithium-ion, then it is rechargeable', can we infer 'If the battery is not rechargeable, then it is not lithium-ion'?"
+  ],
+  [
+    "CT",
+    35,
+    "From 'If David won the award, then David submitted an entry', can we infer 'If David did not submit an entry, then David did not win the award'?"
+  ],
+  [
+    "CT",
+    36,
+    "From 'If the plant is a cactus, then it stores water', can we infer 'If the plant does not store water, then it is not a cactus'?"
+  ],
+  [
+    "CT",
+    37,
+    "From 'If the file was encrypted, then a password is needed', can we infer 'If a password is not needed, then the file was not encrypted'?"
+  ],
+  [
+    "CT",
+    38,
+    "From 'If Nicole is bilingual, then Nicole speaks two languages', can we infer 'If Nicole does not speak two languages, then Nicole is not bilingual'?"
+  ],
+  [
+    "CT",
+    39,
+    "From 'If the material is transparent, then light passes through it', can we infer 'If light does not pass through it, then the material is not transparent'?"
+  ],
+  [
+    "CT",
+    40,
+    "From 'If Kevin graduated with honors, then Kevin had a high GPA', can we infer 'If Kevin did not have a high GPA, then Kevin did not graduate with honors'?"
+  ],
+[
+    "CT",
+    41,
+    "From 'If the solution is acidic, then it will turn the litmus paper red', can we infer 'If it does not turn the litmus paper red, then the solution is not acidic'?"
+  ],
+  [
+    "CT",
+    42,
+    "From 'If Peter attended the meeting, then Peter signed the attendance sheet', can we infer 'If Peter did not sign the attendance sheet, then Peter did not attend the meeting'?"
+  ],
+  [
+    "CT",
+    43,
+    "From 'If the species is endangered, then it is protected by law', can we infer 'If it is not protected by law, then the species is not endangered'?"
+  ],
+  [
+    "CT",
+    44,
+    "From 'If the account is verified, then two-factor authentication is enabled', can we infer 'If two-factor authentication is not enabled, then the account is not verified'?"
+  ],
+  [
+    "CT",
+    45,
+    "From 'If Maria owns a car, then Maria has a driver's license', can we infer 'If Maria does not have a driver's license, then Maria does not own a car'?"
+  ],
+  [
+    "CT",
+    46,
+    "From 'If the river flooded, then the bridge was damaged', can we infer 'If the bridge was not damaged, then the river did not flood'?"
+  ],
+  [
+    "CT",
+    47,
+    "From 'If the code compiled, then there were no syntax errors', can we infer 'If there were syntax errors, then the code did not compile'?"
+  ],
+  [
+    "CT",
+    48,
+    "From 'If Anna graduated from medical school, then Anna completed residency', can we infer 'If Anna did not complete residency, then Anna did not graduate from medical school'?"
+  ],
+  [
+    "CT",
+    49,
+    "From 'If the theorem is proven, then it appears in peer-reviewed journals', can we infer 'If it does not appear in peer-reviewed journals, then the theorem is not proven'?"
+  ],
+  [
+    "CT",
+    50,
+    "From 'If the planet has life, then it has liquid water', can we infer 'If the planet does not have liquid water, then it does not have life'?"
+  ],
+  [
+    "CT",
+    51,
+    "From 'If Robert accepted the position, then Robert relocated to the city', can we infer 'If Robert did not relocate to the city, then Robert did not accept the position'?"
+  ],
+  [
+    "CT",
+    52,
+    "From 'If the drug is FDA-approved, then clinical trials were conducted', can we infer 'If clinical trials were not conducted, then the drug is not FDA-approved'?"
+  ],
+  [
+    "CT",
+    53,
+    "From 'If Jessica owns the property, then Jessica pays property taxes', can we infer 'If Jessica does not pay property taxes, then Jessica does not own the property'?"
+  ],
+  [
+    "CT",
+    54,
+    "From 'If the reaction is exothermic, then heat is released', can we infer 'If heat is not released, then the reaction is not exothermic'?"
+  ],
+  [
+    "CT",
+    55,
+    "From 'If Michael is the CEO, then Michael chairs the board meetings', can we infer 'If Michael does not chair the board meetings, then Michael is not the CEO'?"
+  ],
+  [
+    "CT",
+    56,
+    "From 'If the fossil is from the Jurassic period, then it is over 145 million years old', can we infer 'If it is not over 145 million years old, then the fossil is not from the Jurassic period'?"
+  ],
+  [
+    "CT",
+    57,
+    "From 'If Laura is a citizen, then Laura has voting rights', can we infer 'If Laura does not have voting rights, then Laura is not a citizen'?"
+  ],
+  [
+    "CT",
+    58,
+    "From 'If the network is secure, then it uses encryption', can we infer 'If it does not use encryption, then the network is not secure'?"
+  ],
+  [
+    "CT",
+    59,
+    "From 'If Daniel won the Nobel Prize, then Daniel made a groundbreaking discovery', can we infer 'If Daniel did not make a groundbreaking discovery, then Daniel did not win the Nobel Prize'?"
+  ],
+  [
+    "CT",
+    60,
+    "From 'If the crystal is a diamond, then it has a hardness of 10 on the Mohs scale', can we infer 'If it does not have a hardness of 10 on the Mohs scale, then the crystal is not a diamond'?"
+  ],
+  [
+    "CT",
+    61,
+    "From 'If Sophia is the author, then Sophia receives royalties', can we infer 'If Sophia does not receive royalties, then Sophia is not the author'?"
+  ],
+  [
+    "CT",
+    62,
+    "From 'If the substance is radioactive, then it emits radiation', can we infer 'If it does not emit radiation, then the substance is not radioactive'?"
+  ],
+  [
+    "CT",
+    63,
+    "From 'If James has tenure, then James cannot be fired without cause', can we infer 'If James can be fired without cause, then James does not have tenure'?"
+  ],
+  [
+    "CT",
+    64,
+    "From 'If the organism is a mammal, then it has a backbone', can we infer 'If the organism does not have a backbone, then it is not a mammal'?"
+  ],
+  [
+    "CT",
+    65,
+    "From 'If Victoria is board-certified, then Victoria passed the board examination', can we infer 'If Victoria did not pass the board examination, then Victoria is not board-certified'?"
+  ],
+  [
+    "CT",
+    66,
+    "From 'If the metal is magnetic, then it contains iron', can we infer 'If it does not contain iron, then the metal is not magnetic'?"
+  ],
+  [
+    "CT",
+    67,
+    "From 'If Christopher is the executor, then Christopher manages the estate', can we infer 'If Christopher does not manage the estate, then Christopher is not the executor'?"
+  ],
+  [
+    "CT",
+    68,
+    "From 'If the triangle is equilateral, then all three sides are equal', can we infer 'If all three sides are not equal, then the triangle is not equilateral'?"
+  ],
+  [
+    "CT",
+    69,
+    "From 'If Elizabeth is insured, then Elizabeth pays premiums', can we infer 'If Elizabeth does not pay premiums, then Elizabeth is not insured'?"
+  ],
+  [
+    "CT",
+    70,
+    "From 'If the star is a red giant, then it has exhausted its hydrogen fuel', can we infer 'If it has not exhausted its hydrogen fuel, then the star is not a red giant'?"
+  ],
+  [
+    "CT",
+    71,
+    "From 'If Matthew is the defendant, then Matthew has legal representation', can we infer 'If Matthew does not have legal representation, then Matthew is not the defendant'?"
+  ],
+  [
+    "CT",
+    72,
+    "From 'If the liquid is water, then it boils at 100 degrees Celsius at sea level', can we infer 'If it does not boil at 100 degrees Celsius at sea level, then the liquid is not water'?"
+  ],
+  [
+    "CT",
+    73,
+    "From 'If Olivia is the guardian, then Olivia has legal custody', can we infer 'If Olivia does not have legal custody, then Olivia is not the guardian'?"
+  ],
+  [
+    "CT",
+    74,
+    "From 'If the function is continuous, then it has no breaks or jumps', can we infer 'If it has breaks or jumps, then the function is not continuous'?"
+  ],
+  [
+    "CT",
+    75,
+    "From 'If Andrew is the beneficiary, then Andrew inherits the assets', can we infer 'If Andrew does not inherit the assets, then Andrew is not the beneficiary'?"
+  ],
+  [
+    "CT",
+    76,
+    "From 'If the gem is an emerald, then it is green', can we infer 'If it is not green, then the gem is not an emerald'?"
+  ],
+  [
+    "CT",
+    77,
+    "From 'If Hannah is the plaintiff, then Hannah filed the lawsuit', can we infer 'If Hannah did not file the lawsuit, then Hannah is not the plaintiff'?"
+  ],
+  [
+    "CT",
+    78,
+    "From 'If the circuit is complete, then current flows', can we infer 'If current does not flow, then the circuit is not complete'?"
+  ],
+  [
+    "CT",
+    79,
+    "From 'If William is the trustee, then William manages the trust', can we infer 'If William does not manage the trust, then William is not the trustee'?"
+  ],
+  [
+    "CT",
+    80,
+    "From 'If the cell is prokaryotic, then it lacks a nucleus', can we infer 'If it does not lack a nucleus, then the cell is not prokaryotic'?"
+  ]]

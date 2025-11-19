@@ -1,0 +1,300 @@
+[["DSmi", 1, "From 'Either Fido is inside or Fido must be in the garden' together with 'Fido might not be in the garden', can we infer 'Fido is inside'?"], ["DSmi", 2, "From 'Either the book is on the shelf or it must be resting on the table' together with 'The book might not be resting on the table', can we infer 'The book is on the shelf'?"], ["DSmi", 3, "From 'Either the keys are in the drawer or they must be dangling in the cabinet' together with 'The keys might not be dangling in the cabinet', can we infer 'The keys are in the drawer'?"], ["DSmi", 4, "From 'Either the cat is napping on the couch or it must be playing in the bedroom' together with 'The cat might not be playing in the bedroom', can we infer 'The cat is napping on the couch'?"], ["DSmi", 5, "From 'Either the cookies are in the jar or they must be hidden in the pantry' together with 'The cookies might not be hidden in the pantry', can we infer 'The cookies are in the jar'?"], ["DSmi", 6, "From 'Either the phone is in the living room or it must be ringing in the kitchen' together with 'The phone might not be ringing in the kitchen', can we infer 'The phone is in the living room'?"], ["DSmi", 7, "From 'Either the umbrella is in the car or it must be tucked away in the closet' together with 'The umbrella might not be tucked away in the closet', can we infer 'The umbrella is in the car'?"], ["DSmi", 8, "From 'Either the remote control is on the coffee table or it must be hiding under the couch' together with 'The remote control might not be hiding under the couch', can we infer 'The remote control is on the coffee table'?"], ["DSmi", 9, "From 'Either the missing puzzle piece is in the box or it must be blending in on the floor' together with 'The missing puzzle piece might not be blending in on the floor', can we infer 'The missing puzzle piece is in the box'?"], ["DSmi", 10, "From 'Either the missing sock is in the laundry basket or it must be under the bed' together with 'The missing sock might not be under the bed', can we infer 'The missing sock is in the laundry basket'?"], ["DSmi", 11, "From 'Either the newspaper is in the driveway or it must be sitting on the porch' together with 'The newspaper might not be sitting on the porch', can we infer 'The newspaper is in the driveway'?"], ["DSmi", 12, "From 'Either the jacket is draped over the chair or it must be hanging in the closet' together with 'The jacket might not be hanging in the closet', can we infer 'The jacket is draped over the chair'?"], ["DSmi", 13, "From 'Either the toy is in the toy box or it must be sitting on the bookshelf' together with 'The toy might not be sitting on the bookshelf', can we infer 'The toy is in the toy box'?"], ["DSmi", 14, "From 'Either the milk is on the counter or it must be chilling in the fridge' together with 'The milk might not be chilling in the fridge', can we infer 'The milk is on the counter'?"], ["DSmi", 15, "From 'Either the shoes are in the closet or they must be lined up by the door' together with 'The shoes might not be lined up by the door', can we infer 'The shoes are in the closet'?"], ["DSmi", 16, "From 'Either the pen is in my bag or it must be on my desk' together with 'The pen might not be on my desk', can we infer 'The pen is in my bag'?"], ["DSmi", 17, "From 'Either the scarf is stuffed in my backpack or it must be draped on the coat rack' together with 'The scarf might not be draped on the coat rack', can we infer 'The scarf is stuffed in my backpack'?"], ["DSmi", 18, "From 'Either the notebook is in the drawer or it must be sitting on the nightstand' together with 'The notebook might not be sitting on the nightstand', can we infer 'The notebook is in the drawer'?"], ["DSmi", 19, "From 'Either the watch is charging on the dresser or it must be on his wrist' together with 'The watch might not be on his wrist', can we infer 'The watch is charging on the dresser'?"], ["DSmi", 20, "From 'Either the sunglasses are in her bag or they must be perched on her head' together with 'The sunglasses might not be perched on her head', can we infer 'The sunglasses are in her bag'?"],[
+    "DSmi",
+    21,
+    "From 'Either the file is saved on the desktop or it must be stored in the cloud' together with 'The file might not be stored in the cloud', can we infer 'The file is saved on the desktop'?"
+  ],
+  [
+    "DSmi",
+    22,
+    "From 'Either the report is in the inbox or it must be filed in the archive' together with 'The report might not be filed in the archive', can we infer 'The report is in the inbox'?"
+  ],
+  [
+    "DSmi",
+    23,
+    "From 'Either the equipment is in the storage room or it must be checked out to a department' together with 'The equipment might not be checked out to a department', can we infer 'The equipment is in the storage room'?"
+  ],
+  [
+    "DSmi",
+    24,
+    "From 'Either the student is in the lecture hall or the student must be studying in the library' together with 'The student might not be studying in the library', can we infer 'The student is in the lecture hall'?"
+  ],
+  [
+    "DSmi",
+    25,
+    "From 'Either the package is at the distribution center or it must be out for delivery' together with 'The package might not be out for delivery', can we infer 'The package is at the distribution center'?"
+  ],
+  [
+    "DSmi",
+    26,
+    "From 'Either the tool is in the toolbox or it must be mounted on the workbench' together with 'The tool might not be mounted on the workbench', can we infer 'The tool is in the toolbox'?"
+  ],
+  [
+    "DSmi",
+    27,
+    "From 'Either the data is in the main database or it must be backed up on the external drive' together with 'The data might not be backed up on the external drive', can we infer 'The data is in the main database'?"
+  ],
+  [
+    "DSmi",
+    28,
+    "From 'Either the medication is in the medicine cabinet or it must be kept in the refrigerator' together with 'The medication might not be kept in the refrigerator', can we infer 'The medication is in the medicine cabinet'?"
+  ],
+  [
+    "DSmi",
+    29,
+    "From 'Either the manuscript is on the editor's desk or it must be submitted to the publisher' together with 'The manuscript might not be submitted to the publisher', can we infer 'The manuscript is on the editor's desk'?"
+  ],
+  [
+    "DSmi",
+    30,
+    "From 'Either the specimen is in the laboratory or it must be transported to the research facility' together with 'The specimen might not be transported to the research facility', can we infer 'The specimen is in the laboratory'?"
+  ],
+  [
+    "DSmi",
+    31,
+    "From 'Either the vehicle is parked in the garage or it must be parked at the airport' together with 'The vehicle might not be parked at the airport', can we infer 'The vehicle is parked in the garage'?"
+  ],
+  [
+    "DSmi",
+    32,
+    "From 'Either the textbook is on the shelf or it must be reserved at the circulation desk' together with 'The textbook might not be reserved at the circulation desk', can we infer 'The textbook is on the shelf'?"
+  ],
+  [
+    "DSmi",
+    33,
+    "From 'Either the application is in the pending folder or it must be forwarded to the review committee' together with 'The application might not be forwarded to the review committee', can we infer 'The application is in the pending folder'?"
+  ],
+  [
+    "DSmi",
+    34,
+    "From 'Either the concert recording is in the studio or it must be uploaded to the streaming platform' together with 'The concert recording might not be uploaded to the streaming platform', can we infer 'The concert recording is in the studio'?"
+  ],
+  [
+    "DSmi",
+    35,
+    "From 'Either the blueprint is in the project files or it must be displayed in the presentation room' together with 'The blueprint might not be displayed in the presentation room', can we infer 'The blueprint is in the project files'?"
+  ],
+  [
+    "DSmi",
+    36,
+    "From 'Either the evidence is in the evidence locker or it must be presented in court' together with 'The evidence might not be presented in court', can we infer 'The evidence is in the evidence locker'?"
+  ],
+  [
+    "DSmi",
+    37,
+    "From 'Either the painting is in the gallery or it must be on loan to the museum' together with 'The painting might not be on loan to the museum', can we infer 'The painting is in the gallery'?"
+  ],
+  [
+    "DSmi",
+    38,
+    "From 'Either the message is in the chat window or it must be archived in the thread history' together with 'The message might not be archived in the thread history', can we infer 'The message is in the chat window'?"
+  ],
+  [
+    "DSmi",
+    39,
+    "From 'Either the sample is in the freezer or it must be being analyzed in the lab' together with 'The sample might not be being analyzed in the lab', can we infer 'The sample is in the freezer'?"
+  ],
+  [
+    "DSmi",
+    40,
+    "From 'Either the contract is with the legal team or it must be awaiting signature from the client' together with 'The contract might not be awaiting signature from the client', can we infer 'The contract is with the legal team'?"
+  ],
+[
+    "DSmi",
+    41,
+    "From 'Either the invoice is in the accounting department or it must be sent to the client' together with 'The invoice might not be sent to the client', can we infer 'The invoice is in the accounting department'?"
+  ],
+  [
+    "DSmi",
+    42,
+    "From 'Either the prototype is in the workshop or it must be demonstrated at the conference' together with 'The prototype might not be demonstrated at the conference', can we infer 'The prototype is in the workshop'?"
+  ],
+  [
+    "DSmi",
+    43,
+    "From 'Either the patient is in the examination room or the patient must be admitted to the ward' together with 'The patient might not be admitted to the ward', can we infer 'The patient is in the examination room'?"
+  ],
+  [
+    "DSmi",
+    44,
+    "From 'Either the book is on loan or it must be reshelved in the stacks' together with 'The book might not be reshelved in the stacks', can we infer 'The book is on loan'?"
+  ],
+  [
+    "DSmi",
+    45,
+    "From 'Either the shipment is at the warehouse or it must be in transit to the store' together with 'The shipment might not be in transit to the store', can we infer 'The shipment is at the warehouse'?"
+  ],
+  [
+    "DSmi",
+    46,
+    "From 'Either the defendant is in custody or the defendant must be released on bail' together with 'The defendant might not be released on bail', can we infer 'The defendant is in custody'?"
+  ],
+  [
+    "DSmi",
+    47,
+    "From 'Either the artwork is in storage or it must be exhibited in the gallery' together with 'The artwork might not be exhibited in the gallery', can we infer 'The artwork is in storage'?"
+  ],
+  [
+    "DSmi",
+    48,
+    "From 'Either the grant application is under review or it must be forwarded to the funding committee' together with 'The grant application might not be forwarded to the funding committee', can we infer 'The grant application is under review'?"
+  ],
+  [
+    "DSmi",
+    49,
+    "From 'Either the vehicle is in the repair shop or it must be returned to the customer' together with 'The vehicle might not be returned to the customer', can we infer 'The vehicle is in the repair shop'?"
+  ],
+  [
+    "DSmi",
+    50,
+    "From 'Either the exam is being graded or it must be distributed to students' together with 'The exam might not be distributed to students', can we infer 'The exam is being graded'?"
+  ],
+  [
+    "DSmi",
+    51,
+    "From 'Either the medication is in the pharmacy or it must be dispensed to the patient' together with 'The medication might not be dispensed to the patient', can we infer 'The medication is in the pharmacy'?"
+  ],
+  [
+    "DSmi",
+    52,
+    "From 'Either the patent is pending or it must be granted by the office' together with 'The patent might not be granted by the office', can we infer 'The patent is pending'?"
+  ],
+  [
+    "DSmi",
+    53,
+    "From 'Either the flight is on the tarmac or it must be airborne' together with 'The flight might not be airborne', can we infer 'The flight is on the tarmac'?"
+  ],
+  [
+    "DSmi",
+    54,
+    "From 'Either the research paper is in peer review or it must be published in the journal' together with 'The research paper might not be published in the journal', can we infer 'The research paper is in peer review'?"
+  ],
+  [
+    "DSmi",
+    55,
+    "From 'Either the merchandise is in the stockroom or it must be displayed on the sales floor' together with 'The merchandise might not be displayed on the sales floor', can we infer 'The merchandise is in the stockroom'?"
+  ],
+  [
+    "DSmi",
+    56,
+    "From 'Either the blood sample is being tested or it must be stored in the freezer' together with 'The blood sample might not be stored in the freezer', can we infer 'The blood sample is being tested'?"
+  ],
+  [
+    "DSmi",
+    57,
+    "From 'Either the complaint is being investigated or it must be forwarded to the ombudsman' together with 'The complaint might not be forwarded to the ombudsman', can we infer 'The complaint is being investigated'?"
+  ],
+  [
+    "DSmi",
+    58,
+    "From 'Either the satellite is in orbit or it must be launched from the facility' together with 'The satellite might not be launched from the facility', can we infer 'The satellite is in orbit'?"
+  ],
+  [
+    "DSmi",
+    59,
+    "From 'Either the thesis is with the advisor or it must be submitted to the graduate school' together with 'The thesis might not be submitted to the graduate school', can we infer 'The thesis is with the advisor'?"
+  ],
+  [
+    "DSmi",
+    60,
+    "From 'Either the instrument is in the case or it must be set up on stage' together with 'The instrument might not be set up on stage', can we infer 'The instrument is in the case'?"
+  ],
+  [
+    "DSmi",
+    61,
+    "From 'Either the license is being processed or it must be issued to the applicant' together with 'The license might not be issued to the applicant', can we infer 'The license is being processed'?"
+  ],
+  [
+    "DSmi",
+    62,
+    "From 'Either the fossil is in the collection or it must be on display at the museum' together with 'The fossil might not be on display at the museum', can we infer 'The fossil is in the collection'?"
+  ],
+  [
+    "DSmi",
+    63,
+    "From 'Either the software update is in development or it must be released to users' together with 'The software update might not be released to users', can we infer 'The software update is in development'?"
+  ],
+  [
+    "DSmi",
+    64,
+    "From 'Either the transcript is in the registrar's office or it must be mailed to the university' together with 'The transcript might not be mailed to the university', can we infer 'The transcript is in the registrar's office'?"
+  ],
+  [
+    "DSmi",
+    65,
+    "From 'Either the evidence is in the lab or it must be presented to the jury' together with 'The evidence might not be presented to the jury', can we infer 'The evidence is in the lab'?"
+  ],
+  [
+    "DSmi",
+    66,
+    "From 'Either the employee is on leave or the employee must be working at the office' together with 'The employee might not be working at the office', can we infer 'The employee is on leave'?"
+  ],
+  [
+    "DSmi",
+    67,
+    "From 'Either the medication is being manufactured or it must be shipped to distributors' together with 'The medication might not be shipped to distributors', can we infer 'The medication is being manufactured'?"
+  ],
+  [
+    "DSmi",
+    68,
+    "From 'Either the proposal is being revised or it must be presented to the board' together with 'The proposal might not be presented to the board', can we infer 'The proposal is being revised'?"
+  ],
+  [
+    "DSmi",
+    69,
+    "From 'Either the organ is with the donor or it must be transplanted into the recipient' together with 'The organ might not be transplanted into the recipient', can we infer 'The organ is with the donor'?"
+  ],
+  [
+    "DSmi",
+    70,
+    "From 'Either the sensor is in calibration or it must be deployed in the field' together with 'The sensor might not be deployed in the field', can we infer 'The sensor is in calibration'?"
+  ],
+  [
+    "DSmi",
+    71,
+    "From 'Either the witness is being prepared or the witness must be called to testify' together with 'The witness might not be called to testify', can we infer 'The witness is being prepared'?"
+  ],
+  [
+    "DSmi",
+    72,
+    "From 'Either the vaccine is in clinical trials or it must be distributed to hospitals' together with 'The vaccine might not be distributed to hospitals', can we infer 'The vaccine is in clinical trials'?"
+  ],
+  [
+    "DSmi",
+    73,
+    "From 'Either the legislation is in committee or it must be voted on by the full chamber' together with 'The legislation might not be voted on by the full chamber', can we infer 'The legislation is in committee'?"
+  ],
+  [
+    "DSmi",
+    74,
+    "From 'Either the code is being debugged or it must be deployed to production' together with 'The code might not be deployed to production', can we infer 'The code is being debugged'?"
+  ],
+  [
+    "DSmi",
+    75,
+    "From 'Either the product is in testing or it must be released to market' together with 'The product might not be released to market', can we infer 'The product is in testing'?"
+  ],
+  [
+    "DSmi",
+    76,
+    "From 'Either the sculpture is in the studio or it must be installed at the plaza' together with 'The sculpture might not be installed at the plaza', can we infer 'The sculpture is in the studio'?"
+  ],
+  [
+    "DSmi",
+    77,
+    "From 'Either the cargo is being loaded or it must be in flight to the destination' together with 'The cargo might not be in flight to the destination', can we infer 'The cargo is being loaded'?"
+  ],
+  [
+    "DSmi",
+    78,
+    "From 'Either the dissertation is being written or it must be defended before the committee' together with 'The dissertation might not be defended before the committee', can we infer 'The dissertation is being written'?"
+  ],
+  [
+    "DSmi",
+    79,
+    "From 'Either the component is in inventory or it must be installed in the device' together with 'The component might not be installed in the device', can we infer 'The component is in inventory'?"
+  ],
+  [
+    "DSmi",
+    80,
+    "From 'Either the permit is being reviewed or it must be approved by the agency' together with 'The permit might not be approved by the agency', can we infer 'The permit is being reviewed'?"
+  ]]

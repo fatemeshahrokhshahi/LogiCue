@@ -1,0 +1,300 @@
+[["MTmi", 1, "From 'If Mary was at the wedding, then Sue must have been at the wedding' together with 'Sue might not have been at the wedding', can we infer 'Mary was not at the wedding'?"], ["MTmi", 2, "From 'If the griffin was in the forest, then the unicorn must have been in the forest' together with 'The unicorn might not have been in the forest', can we infer 'The griffin was not in the forest'?"], ["MTmi", 3, "From 'If the book was written by James, then the book must be a mystery novel' together with 'The book might not be a mystery novel', can we infer 'The book was not written by James'?"], ["MTmi", 4, "From 'If the alien visited Mars, then the robot must have visited Jupiter' together with 'The robot might not have visited Jupiter', can we infer 'The alien did not visit Mars'?"], ["MTmi", 5, "From 'If Jeff played basketball, then Amy must have played tennis' together with 'Amy might not have played tennis', can we infer 'Jeff did not play basketball'?"], ["MTmi", 6, "From 'If Sue chose pizza, then Bob must have chosen pasta' together with 'Bob might not have chosen pasta', can we infer 'Sue did not choose pizza'?"], ["MTmi", 7, "From 'If Alex finished the race, then Chris must have finished the race' together with 'Chris might not have finished the face', can we infer 'Alex did not finish the race'?"], ["MTmi", 8, "From 'If the vampire was awake, then the mummy must have been awake' together with 'The mummy might not have been awake', can we infer 'The vampire was not awake'?"], ["MTmi", 9, "From 'If Lisa bought the red shirt, then Mark must have bought the blue shirt' together with 'Mark might not have bought the blue shirt', can we infer 'Lisa did not buy the red shirt'?"], ["MTmi", 10, "From 'If the dog was inside, then the cat must have been outside' together with 'The cat might not have been outside', can we infer 'The dog was not inside'?"], ["MTmi", 11, "From 'If the cake was chocolate, then the muffins must have been blueberry' together with 'The muffins might not have been blueberry', can we infer 'The cake was not chocolate'?"], ["MTmi", 12, "From 'If Joe went to the park, then Lucy must have gone to the zoo' together with 'Lucy might not have gone to the zoo', can we infer 'Joe did not go to the park'?"], ["MTmi", 13, "From 'If the car was red, then the truck must have been blue' together with 'The truck might not have been blue', can we infer 'The car was not red'?"], ["MTmi", 14, "From 'If the bear was in the cave, then the wolf must have been in the den' together with 'The wolf might not have been in the den', can we infer 'The bear was not in the cave'?"], ["MTmi", 15, "From 'If Sam took a plane, then Erin must have taken a train' together with 'Erin might not have taken a train', can we infer 'Sam did not take a plane'?"], ["MTmi", 16, "From 'If the shirt was cotton, then the pants must have been denim' together with 'The pants might not have been denim', can we infer 'The shirt was not cotton'?"], ["MTmi", 17, "From 'If Ben ate pasta, then Kate must have eaten salad' together with 'Kate might not have eaten salad', can we infer 'Ben did not eat pasta'?"], ["MTmi", 18, "From 'If the doll was plastic, then the truck must have been metal' together with 'The truck might not have been metal', can we infer 'The doll was not plastic'?"], ["MTmi", 19, "From 'If Tom watched football, then Jen must have watched basketball' together with 'Jen might not have watched basketball', can we infer 'Tom did not watch football'?"], ["MTmi", 20, "From 'If the apple was red, then the banana must have been yellow' together with 'The banana might not have been yellow', can we infer 'The apple was not red'?"]
+,["MTmi",
+    21,
+    "From 'If the chemical reaction occurred, then heat must have been generated' together with 'Heat might not have been generated', can we infer 'The chemical reaction did not occur'?"
+  ],
+  [
+    "MTmi",
+    22,
+    "From 'If Sarah received the certification, then Sarah must have passed the exam' together with 'Sarah might not have passed the exam', can we infer 'Sarah did not receive the certification'?"
+  ],
+  [
+    "MTmi",
+    23,
+    "From 'If the law was violated, then a fine must have been issued' together with 'A fine might not have been issued', can we infer 'The law was not violated'?"
+  ],
+  [
+    "MTmi",
+    24,
+    "From 'If the machine is operational, then the power must be on' together with 'The power might not be on', can we infer 'The machine is not operational'?"
+  ],
+  [
+    "MTmi",
+    25,
+    "From 'If Jake attended the training, then Jake must have registered in advance' together with 'Jake might not have registered in advance', can we infer 'Jake did not attend the training'?"
+  ],
+  [
+    "MTmi",
+    26,
+    "From 'If the building collapsed, then structural damage must have occurred' together with 'Structural damage might not have occurred', can we infer 'The building did not collapse'?"
+  ],
+  [
+    "MTmi",
+    27,
+    "From 'If the data was corrupted, then an error message must have appeared' together with 'An error message might not have appeared', can we infer 'The data was not corrupted'?"
+  ],
+  [
+    "MTmi",
+    28,
+    "From 'If Emma made the payment, then a receipt must have been issued' together with 'A receipt might not have been issued', can we infer 'Emma did not make the payment'?"
+  ],
+  [
+    "MTmi",
+    29,
+    "From 'If the hypothesis is correct, then the predicted results must have been observed' together with 'The predicted results might not have been observed', can we infer 'The hypothesis is not correct'?"
+  ],
+  [
+    "MTmi",
+    30,
+    "From 'If Rachel accepted the job offer, then Rachel must have signed the contract' together with 'Rachel might not have signed the contract', can we infer 'Rachel did not accept the job offer'?"
+  ],
+  [
+    "MTmi",
+    31,
+    "From 'If the alarm was triggered, then sensors must have detected motion' together with 'Sensors might not have detected motion', can we infer 'The alarm was not triggered'?"
+  ],
+  [
+    "MTmi",
+    32,
+    "From 'If David committed the crime, then David must have been at the scene' together with 'David might not have been at the scene', can we infer 'David did not commit the crime'?"
+  ],
+  [
+    "MTmi",
+    33,
+    "From 'If the policy changed, then stakeholders must have been notified' together with 'Stakeholders might not have been notified', can we infer 'The policy did not change'?"
+  ],
+  [
+    "MTmi",
+    34,
+    "From 'If Nicole completed the course, then Nicole must have submitted all assignments' together with 'Nicole might not have submitted all assignments', can we infer 'Nicole did not complete the course'?"
+  ],
+  [
+    "MTmi",
+    35,
+    "From 'If the virus infected the system, then files must have been encrypted' together with 'Files might not have been encrypted', can we infer 'The virus did not infect the system'?"
+  ],
+  [
+    "MTmi",
+    36,
+    "From 'If Kevin won the election, then Kevin must have received the majority of votes' together with 'Kevin might not have received the majority of votes', can we infer 'Kevin did not win the election'?"
+  ],
+  [
+    "MTmi",
+    37,
+    "From 'If the plant died, then it must have lacked water or sunlight' together with 'It might not have lacked water or sunlight', can we infer 'The plant did not die'?"
+  ],
+  [
+    "MTmi",
+    38,
+    "From 'If Michelle qualified for the tournament, then Michelle must have won the qualifying round' together with 'Michelle might not have won the qualifying round', can we infer 'Michelle did not qualify for the tournament'?"
+  ],
+  [
+    "MTmi",
+    39,
+    "From 'If the product was recalled, then customers must have been informed' together with 'Customers might not have been informed', can we infer 'The product was not recalled'?"
+  ],
+  [
+    "MTmi",
+    40,
+    "From 'If Brian inherited the estate, then the will must have been executed' together with 'The will might not have been executed', can we infer 'Brian did not inherit the estate'?"
+  ],
+[
+    "MTmi",
+    41,
+    "From 'If the experiment was successful, then the results must have been replicated' together with 'The results might not have been replicated', can we infer 'The experiment was not successful'?"
+  ],
+  [
+    "MTmi",
+    42,
+    "From 'If Patricia graduated, then Patricia must have completed all course requirements' together with 'Patricia might not have completed all course requirements', can we infer 'Patricia did not graduate'?"
+  ],
+  [
+    "MTmi",
+    43,
+    "From 'If the treaty was ratified, then all signatories must have approved it' together with 'All signatories might not have approved it', can we infer 'The treaty was not ratified'?"
+  ],
+  [
+    "MTmi",
+    44,
+    "From 'If the system rebooted, then the updates must have been installed' together with 'The updates might not have been installed', can we infer 'The system did not reboot'?"
+  ],
+  [
+    "MTmi",
+    45,
+    "From 'If Thomas earned the degree, then Thomas must have defended the thesis' together with 'Thomas might not have defended the thesis', can we infer 'Thomas did not earn the degree'?"
+  ],
+  [
+    "MTmi",
+    46,
+    "From 'If the merger occurred, then regulatory approval must have been granted' together with 'Regulatory approval might not have been granted', can we infer 'The merger did not occur'?"
+  ],
+  [
+    "MTmi",
+    47,
+    "From 'If the vaccine works, then antibodies must have been produced' together with 'Antibodies might not have been produced', can we infer 'The vaccine does not work'?"
+  ],
+  [
+    "MTmi",
+    48,
+    "From 'If Margaret was promoted, then Margaret must have received excellent evaluations' together with 'Margaret might not have received excellent evaluations', can we infer 'Margaret was not promoted'?"
+  ],
+  [
+    "MTmi",
+    49,
+    "From 'If the launch succeeded, then all systems must have been operational' together with 'All systems might not have been operational', can we infer 'The launch did not succeed'?"
+  ],
+  [
+    "MTmi",
+    50,
+    "From 'If Richard was elected, then Richard must have won the majority' together with 'Richard might not have won the majority', can we infer 'Richard was not elected'?"
+  ],
+  [
+    "MTmi",
+    51,
+    "From 'If the diagnosis is correct, then the symptoms must have matched the disease' together with 'The symptoms might not have matched the disease', can we infer 'The diagnosis is not correct'?"
+  ],
+  [
+    "MTmi",
+    52,
+    "From 'If Catherine passed the bar exam, then Catherine must have studied extensively' together with 'Catherine might not have studied extensively', can we infer 'Catherine did not pass the bar exam'?"
+  ],
+  [
+    "MTmi",
+    53,
+    "From 'If the species went extinct, then its habitat must have been destroyed' together with 'Its habitat might not have been destroyed', can we infer 'The species did not go extinct'?"
+  ],
+  [
+    "MTmi",
+    54,
+    "From 'If Gregory won the case, then the evidence must have been compelling' together with 'The evidence might not have been compelling', can we infer 'Gregory did not win the case'?"
+  ],
+  [
+    "MTmi",
+    55,
+    "From 'If the bridge collapsed, then structural failure must have occurred' together with 'Structural failure might not have occurred', can we infer 'The bridge did not collapse'?"
+  ],
+  [
+    "MTmi",
+    56,
+    "From 'If Amanda was awarded the grant, then Amanda must have submitted a strong proposal' together with 'Amanda might not have submitted a strong proposal', can we infer 'Amanda was not awarded the grant'?"
+  ],
+  [
+    "MTmi",
+    57,
+    "From 'If the defendant was convicted, then the jury must have found guilt beyond reasonable doubt' together with 'The jury might not have found guilt beyond reasonable doubt', can we infer 'The defendant was not convicted'?"
+  ],
+  [
+    "MTmi",
+    58,
+    "From 'If Timothy achieved certification, then Timothy must have passed all the tests' together with 'Timothy might not have passed all the tests', can we infer 'Timothy did not achieve certification'?"
+  ],
+  [
+    "MTmi",
+    59,
+    "From 'If the company went bankrupt, then it must have exhausted all assets' together with 'It might not have exhausted all assets', can we infer 'The company did not go bankrupt'?"
+  ],
+  [
+    "MTmi",
+    60,
+    "From 'If Rebecca secured the patent, then Rebecca must have filed the application' together with 'Rebecca might not have filed the application', can we infer 'Rebecca did not secure the patent'?"
+  ],
+  [
+    "MTmi",
+    61,
+    "From 'If the epidemic spread, then containment measures must have failed' together with 'Containment measures might not have failed', can we infer 'The epidemic did not spread'?"
+  ],
+  [
+    "MTmi",
+    62,
+    "From 'If Steven was admitted, then Steven must have met all admission criteria' together with 'Steven might not have met all admission criteria', can we infer 'Steven was not admitted'?"
+  ],
+  [
+    "MTmi",
+    63,
+    "From 'If the transaction completed, then verification must have been successful' together with 'Verification might not have been successful', can we infer 'The transaction did not complete'?"
+  ],
+  [
+    "MTmi",
+    64,
+    "From 'If Jennifer obtained tenure, then Jennifer must have published significant research' together with 'Jennifer might not have published significant research', can we infer 'Jennifer did not obtain tenure'?"
+  ],
+  [
+    "MTmi",
+    65,
+    "From 'If the reactor melted down, then safety systems must have failed' together with 'Safety systems might not have failed', can we infer 'The reactor did not melt down'?"
+  ],
+  [
+    "MTmi",
+    66,
+    "From 'If Nathan won the scholarship, then Nathan must have demonstrated exceptional merit' together with 'Nathan might not have demonstrated exceptional merit', can we infer 'Nathan did not win the scholarship'?"
+  ],
+  [
+    "MTmi",
+    67,
+    "From 'If the appeal was granted, then procedural errors must have been found' together with 'Procedural errors might not have been found', can we infer 'The appeal was not granted'?"
+  ],
+  [
+    "MTmi",
+    68,
+    "From 'If Linda received the award, then Linda must have been nominated' together with 'Linda might not have been nominated', can we infer 'Linda did not receive the award'?"
+  ],
+  [
+    "MTmi",
+    69,
+    "From 'If the sample was contaminated, then sterile protocols must have been violated' together with 'Sterile protocols might not have been violated', can we infer 'The sample was not contaminated'?"
+  ],
+  [
+    "MTmi",
+    70,
+    "From 'If Charles was appointed, then Charles must have been recommended by the committee' together with 'Charles might not have been recommended by the committee', can we infer 'Charles was not appointed'?"
+  ],
+  [
+    "MTmi",
+    71,
+    "From 'If the project was cancelled, then funding must have been withdrawn' together with 'Funding might not have been withdrawn', can we infer 'The project was not cancelled'?"
+  ],
+  [
+    "MTmi",
+    72,
+    "From 'If Monica achieved tenure, then Monica must have satisfied all requirements' together with 'Monica might not have satisfied all requirements', can we infer 'Monica did not achieve tenure'?"
+  ],
+  [
+    "MTmi",
+    73,
+    "From 'If the treaty expired, then the deadline must have passed' together with 'The deadline might not have passed', can we infer 'The treaty did not expire'?"
+  ],
+  [
+    "MTmi",
+    74,
+    "From 'If Anthony was impeached, then misconduct must have been proven' together with 'Misconduct might not have been proven', can we infer 'Anthony was not impeached'?"
+  ],
+  [
+    "MTmi",
+    75,
+    "From 'If the organism died, then essential conditions must have been absent' together with 'Essential conditions might not have been absent', can we infer 'The organism did not die'?"
+  ],
+  [
+    "MTmi",
+    76,
+    "From 'If Samantha was licensed, then Samantha must have completed training' together with 'Samantha might not have completed training', can we infer 'Samantha was not licensed'?"
+  ],
+  [
+    "MTmi",
+    77,
+    "From 'If the protest succeeded, then public support must have been widespread' together with 'Public support might not have been widespread', can we infer 'The protest did not succeed'?"
+  ],
+  [
+    "MTmi",
+    78,
+    "From 'If Edward was cleared, then the investigation must have found no wrongdoing' together with 'The investigation might not have found no wrongdoing', can we infer 'Edward was not cleared'?"
+  ],
+  [
+    "MTmi",
+    79,
+    "From 'If the volcano erupted, then pressure must have exceeded containment' together with 'Pressure might not have exceeded containment', can we infer 'The volcano did not erupt'?"
+  ],
+  [
+    "MTmi",
+    80,
+    "From 'If Christine was vindicated, then the allegations must have been disproven' together with 'The allegations might not have been disproven', can we infer 'Christine was not vindicated'?"
+  ]]

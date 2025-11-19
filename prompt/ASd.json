@@ -1,0 +1,300 @@
+[["ASd", 1, "From  'If the match is struck, then it will light', can we infer 'If the match is struck and it has been soaked in water, then it will light'?"], ["ASd", 2, "From 'If we go to the concert, then we'll have a good time', can we infer 'If we go to the concert and a bomb goes off, then we'll have a good time'?"], ["ASd", 3, "From 'If the car is in the garage, then it is safe', can we infer 'If the car is in the garage and the garage is flooding, then it is safe'?"], ["ASd", 4, "From 'If the dog is in the yard, then it is barking', can we infer 'If the dog is in the yard and it is asleep, then it is barking'?"], ["ASd", 5, "From 'If the bill is paid, then the services will continue', can we infer 'If the bill is paid and the check bounces, then the services will continue'?"], ["ASd", 6, "From 'If you scream, it will hurt my ears', can we infer 'If you scream and I am wearing earplugs, it will hurt my ears'?"], ["ASd", 7, "From 'If the oven is on, then the kitchen is warm', can we infer 'If the oven is on and the pilot light is out, then the kitchen is warm'?"], ["ASd", 8, "From 'If the package has shipped, then it will arrive today', can we infer 'If the package has shipped and it was misrouted, then it will arrive today'?"], ["ASd", 9, "From 'If the essay is well-written, then the student will get an A', can we infer 'If the essay is well-written and turned in late, then the student will get an A'?"], ["ASd", 10, "From 'If the order is placed, then the item will ship', can we infer 'If the order is placed and the item is out of stock, then it will ship'?"], ["ASd", 11, "From 'If you get enough sleep, you won't be tired' can we infer 'If you get enough sleep and do hard labor, you won't be tired'?"], ["ASd", 12, "From 'If I finish my homework, I can play video games' can we infer 'If I finish my homework and my computer catches on fire, I can play video games'?"], ["ASd", 13, "From 'If I exercise, I will lose weight' can we infer 'If I exercise and eat junk food, I will lose weight'?"], ["ASd", 14, "From 'If I study hard, I will pass the test' can we infer 'If I study hard and the test is in Chinese, I will pass the test'?"], ["ASd", 15, "From 'If I charge my phone, it will have power' can we infer 'If I charge my phone and it has a dead battery, it will have power'?"], ["ASd", 16, "From 'If I fertilize the lawn, it will be lush and green' can we infer 'If I fertilize the lawn and there is a drought, it will be lush and green'?"], ["ASd", 17, "From 'If I change the oil, the car will run smoothly' can we infer 'If I change the oil and the transmission is shot, the car will run smoothly'?"], ["ASd", 18, "From 'If I water the plants, they will grow' can we infer 'If I water the plants and there is no sunlight, they will grow'?"], ["ASd", 19, "From 'If you fill up the gas tank, the car will run' can we infer 'If you fill up the gas tank and there is a hole in it, the car will run'?"], ["ASd", 20, "From 'If I take medication, I will feel better' can we infer 'If I take medication that expired, I will feel better'?"],[
+    "ASd",
+    21,
+    "From 'If you heat water to 100°C, then it will boil', can we infer 'If you heat water to 100°C and you are at high altitude, then it will boil'?"
+  ],
+  [
+    "ASd",
+    22,
+    "From 'If you add acid to the solution, then it will turn red', can we infer 'If you add acid to the solution and the indicator is already expired, then it will turn red'?"
+  ],
+  [
+    "ASd",
+    23,
+    "From 'If the battery is charged, then the flashlight will work', can we infer 'If the battery is charged and the bulb is broken, then the flashlight will work'?"
+  ],
+  [
+    "ASd",
+    24,
+    "From 'If you submit your application, then you will be considered for the position', can we infer 'If you submit your application and it arrives after the deadline, then you will be considered for the position'?"
+  ],
+  [
+    "ASd",
+    25,
+    "From 'If the recipe calls for sugar, then the cake will be sweet', can we infer 'If the recipe calls for sugar and you substitute it with salt, then the cake will be sweet'?"
+  ],
+  [
+    "ASd",
+    26,
+    "From 'If you press the button, then the elevator will come', can we infer 'If you press the button and the power is out, then the elevator will come'?"
+  ],
+  [
+    "ASd",
+    27,
+    "From 'If the plant gets sunlight, then it will photosynthesize', can we infer 'If the plant gets sunlight and it has no chlorophyll, then it will photosynthesize'?"
+  ],
+  [
+    "ASd",
+    28,
+    "From 'If you sign the contract, then the deal is finalized', can we infer 'If you sign the contract and the other party withdraws, then the deal is finalized'?"
+  ],
+  [
+    "ASd",
+    29,
+    "From 'If the ice is heated, then it will melt', can we infer 'If the ice is heated and the temperature is below freezing, then it will melt'?"
+  ],
+  [
+    "ASd",
+    30,
+    "From 'If you mail the letter, then it will be delivered', can we infer 'If you mail the letter and you forget to put a stamp on it, then it will be delivered'?"
+  ],
+  [
+    "ASd",
+    31,
+    "From 'If the alarm is set, then it will ring in the morning', can we infer 'If the alarm is set and the device is turned off, then it will ring in the morning'?"
+  ],
+  [
+    "ASd",
+    32,
+    "From 'If you register for the class, then you will have a seat', can we infer 'If you register for the class and it gets cancelled, then you will have a seat'?"
+  ],
+  [
+    "ASd",
+    33,
+    "From 'If the seed is planted, then it will germinate', can we infer 'If the seed is planted and the soil is completely dry, then it will germinate'?"
+  ],
+  [
+    "ASd",
+    34,
+    "From 'If the meeting is scheduled, then it will take place', can we infer 'If the meeting is scheduled and the host is absent, then it will take place'?"
+  ],
+  [
+    "ASd",
+    35,
+    "From 'If you turn the key, then the car will start', can we infer 'If you turn the key and the engine is flooded, then the car will start'?"
+  ],
+  [
+    "ASd",
+    36,
+    "From 'If the theorem is proven, then it is accepted', can we infer 'If the theorem is proven and a fatal flaw is discovered, then it is accepted'?"
+  ],
+  [
+    "ASd",
+    37,
+    "From 'If you download the app, then you can use it', can we infer 'If you download the app and your device is incompatible, then you can use it'?"
+  ],
+  [
+    "ASd",
+    38,
+    "From 'If the ingredient is added, then the mixture will thicken', can we infer 'If the ingredient is added and the temperature is too high, then the mixture will thicken'?"
+  ],
+  [
+    "ASd",
+    39,
+    "From 'If the reservation is confirmed, then you will have a table', can we infer 'If the reservation is confirmed and the restaurant has a fire, then you will have a table'?"
+  ],
+  [
+    "ASd",
+    40,
+    "From 'If the wire is connected, then electricity will flow', can we infer 'If the wire is connected and the circuit breaker is off, then electricity will flow'?"
+  ],
+ [
+    "ASd",
+    41,
+    "From 'If you press the doorbell, then someone will answer', can we infer 'If you press the doorbell and nobody is home, then someone will answer'?"
+  ],
+  [
+    "ASd",
+    42,
+    "From 'If the medication is taken, then the pain will subside', can we infer 'If the medication is taken and it's past its expiration date by five years, then the pain will subside'?"
+  ],
+  [
+    "ASd",
+    43,
+    "From 'If you bake the bread, then it will rise', can we infer 'If you bake the bread and you forgot to add yeast, then it will rise'?"
+  ],
+  [
+    "ASd",
+    44,
+    "From 'If the microscope is used, then you will see the cells', can we infer 'If the microscope is used and the lens is cracked, then you will see the cells'?"
+  ],
+  [
+    "ASd",
+    45,
+    "From 'If the password is entered, then the account will unlock', can we infer 'If the password is entered and the account has been suspended, then the account will unlock'?"
+  ],
+  [
+    "ASd",
+    46,
+    "From 'If the invitation is sent, then guests will attend', can we infer 'If the invitation is sent and it arrives after the event, then guests will attend'?"
+  ],
+  [
+    "ASd",
+    47,
+    "From 'If the engine starts, then the car will run', can we infer 'If the engine starts and all four tires are flat, then the car will run'?"
+  ],
+  [
+    "ASd",
+    48,
+    "From 'If the witness testifies, then the truth will emerge', can we infer 'If the witness testifies and the witness is lying, then the truth will emerge'?"
+  ],
+  [
+    "ASd",
+    49,
+    "From 'If the candle is lit, then the room will brighten', can we infer 'If the candle is lit and the room is filled with smoke, then the room will brighten'?"
+  ],
+  [
+    "ASd",
+    50,
+    "From 'If the bridge is built, then traffic will flow', can we infer 'If the bridge is built and it immediately collapses, then traffic will flow'?"
+  ],
+  [
+    "ASd",
+    51,
+    "From 'If you attend the lecture, then you will learn', can we infer 'If you attend the lecture and you sleep through it, then you will learn'?"
+  ],
+  [
+    "ASd",
+    52,
+    "From 'If the pump is activated, then water will flow', can we infer 'If the pump is activated and the pipes are frozen solid, then water will flow'?"
+  ],
+  [
+    "ASd",
+    53,
+    "From 'If the vaccine is administered, then immunity will develop', can we infer 'If the vaccine is administered and the immune system is completely compromised, then immunity will develop'?"
+  ],
+  [
+    "ASd",
+    54,
+    "From 'If the signal is sent, then communication will occur', can we infer 'If the signal is sent and the receiver is destroyed, then communication will occur'?"
+  ],
+  [
+    "ASd",
+    55,
+    "From 'If the key fits, then the lock will open', can we infer 'If the key fits and the lock mechanism is rusted shut, then the lock will open'?"
+  ],
+  [
+    "ASd",
+    56,
+    "From 'If you practice the piano, then you will improve', can we infer 'If you practice the piano and you practice incorrectly, then you will improve'?"
+  ],
+  [
+    "ASd",
+    57,
+    "From 'If the formula is applied, then the problem will be solved', can we infer 'If the formula is applied and you're solving a completely different type of problem, then the problem will be solved'?"
+  ],
+  [
+    "ASd",
+    58,
+    "From 'If the treaty is signed, then peace will follow', can we infer 'If the treaty is signed and one side immediately violates it, then peace will follow'?"
+  ],
+  [
+    "ASd",
+    59,
+    "From 'If the fire alarm sounds, then people will evacuate', can we infer 'If the fire alarm sounds and it's a false alarm that everyone ignores, then people will evacuate'?"
+  ],
+  [
+    "ASd",
+    60,
+    "From 'If the lens is focused, then the image will be clear', can we infer 'If the lens is focused and the subject is moving rapidly, then the image will be clear'?"
+  ],
+  [
+    "ASd",
+    61,
+    "From 'If antibiotics are prescribed, then the infection will clear', can we infer 'If antibiotics are prescribed and the bacteria is antibiotic-resistant, then the infection will clear'?"
+  ],
+  [
+    "ASd",
+    62,
+    "From 'If the solar panel is installed, then electricity will be generated', can we infer 'If the solar panel is installed and it's placed in complete darkness, then electricity will be generated'?"
+  ],
+  [
+    "ASd",
+    63,
+    "From 'If you submit the claim, then you will receive payment', can we infer 'If you submit the claim and it's rejected for fraud, then you will receive payment'?"
+  ],
+  [
+    "ASd",
+    64,
+    "From 'If the satellite is launched, then it will orbit', can we infer 'If the satellite is launched and it explodes during launch, then it will orbit'?"
+  ],
+  [
+    "ASd",
+    65,
+    "From 'If the thermostat is set, then the temperature will adjust', can we infer 'If the thermostat is set and the heating system is broken, then the temperature will adjust'?"
+  ],
+  [
+    "ASd",
+    66,
+    "From 'If the petition is filed, then a hearing will be scheduled', can we infer 'If the petition is filed and the court is closed permanently, then a hearing will be scheduled'?"
+  ],
+  [
+    "ASd",
+    67,
+    "From 'If the recipe is followed, then the dish will taste good', can we infer 'If the recipe is followed and all the ingredients are spoiled, then the dish will taste good'?"
+  ],
+  [
+    "ASd",
+    68,
+    "From 'If the proposal is approved, then funding will be allocated', can we infer 'If the proposal is approved and the budget has been eliminated, then funding will be allocated'?"
+  ],
+  [
+    "ASd",
+    69,
+    "From 'If the tire is inflated, then the bike will ride smoothly', can we infer 'If the tire is inflated and the rim is completely bent, then the bike will ride smoothly'?"
+  ],
+  [
+    "ASd",
+    70,
+    "From 'If the credentials are verified, then access will be granted', can we infer 'If the credentials are verified and the system has been shut down, then access will be granted'?"
+  ],
+  [
+    "ASd",
+    71,
+    "From 'If the specimen is preserved, then it can be studied', can we infer 'If the specimen is preserved and it disintegrates immediately, then it can be studied'?"
+  ],
+  [
+    "ASd",
+    72,
+    "From 'If the antenna is raised, then the signal will improve', can we infer 'If the antenna is raised and you're in a complete dead zone, then the signal will improve'?"
+  ],
+  [
+    "ASd",
+    73,
+    "From 'If the seeds are scattered, then plants will grow', can we infer 'If the seeds are scattered and they land on concrete, then plants will grow'?"
+  ],
+  [
+    "ASd",
+    74,
+    "From 'If the conductor waves the baton, then the orchestra will play', can we infer 'If the conductor waves the baton and all the musicians have left, then the orchestra will play'?"
+  ],
+  [
+    "ASd",
+    75,
+    "From 'If the permit is obtained, then construction can begin', can we infer 'If the permit is obtained and it's immediately revoked, then construction can begin'?"
+  ],
+  [
+    "ASd",
+    76,
+    "From 'If the enzyme is added, then the reaction will accelerate', can we infer 'If the enzyme is added and the temperature is far too high, then the reaction will accelerate'?"
+  ],
+  [
+    "ASd",
+    77,
+    "From 'If the backup runs, then the data will be saved', can we infer 'If the backup runs and the storage device is full, then the data will be saved'?"
+  ],
+  [
+    "ASd",
+    78,
+    "From 'If the ballot is cast, then your vote will count', can we infer 'If the ballot is cast and the election has been cancelled, then your vote will count'?"
+  ],
+  [
+    "ASd",
+    79,
+    "From 'If the filter is installed, then the water will be purified', can we infer 'If the filter is installed and it's completely clogged, then the water will be purified'?"
+  ],
+  [
+    "ASd",
+    80,
+    "From 'If the warranty is purchased, then repairs will be covered', can we infer 'If the warranty is purchased and the damage is from intentional misuse, then repairs will be covered'?"
+  ]]

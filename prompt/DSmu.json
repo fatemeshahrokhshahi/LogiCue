@@ -1,0 +1,300 @@
+[["DSmu", 1, "From 'Either Fido is inside or Fido must be in the garden' together with 'It's not the case that Fido must be in the garden', can we infer 'Fido is inside'?"], ["DSmu", 2, "From 'Either the book is on the shelf or it must be resting on the table' together with 'It's not the case that the book must be resting on the table', can we infer 'The book is on the shelf'?"], ["DSmu", 3, "From 'Either the keys are in the drawer or they must be dangling in the cabinet' together with 'It's not the case that the keys must be dangling in the cabinet', can we infer 'The keys are in the drawer'?"], ["DSmu", 4, "From 'Either the cat is napping on the couch or it must be playing in the bedroom' together with 'It's not the case that the cat must be playing in the bedroom', can we infer 'The cat is napping on the couch'?"], ["DSmu", 5, "From 'Either the cookies are in the jar or they must be hidden in the pantry' together with 'It's not the case that the cookies must be hidden in the pantry', can we infer 'The cookies are in the jar'?"], ["DSmu", 6, "From 'Either the phone is in the living room or it must be ringing in the kitchen' together with 'It's not the case that the phone must be ringing in the kitchen', can we infer 'The phone is in the living room'?"], ["DSmu", 7, "From 'Either the umbrella is in the car or it must be tucked away in the closet' together with 'It's not the case that the umbrella must be tucked away in the closet', can we infer 'The umbrella is in the car'?"], ["DSmu", 8, "From 'Either the remote control is on the coffee table or it must be hiding under the couch' together with 'It's not the case that the remote control must be hiding under the couch', can we infer 'The remote control is on the coffee table'?"], ["DSmu", 9, "From 'Either the missing puzzle piece is in the box or it must be blending in on the floor' together with 'It's not the case that the missing puzzle piece must be blending in on the floor', can we infer 'The missing puzzle piece is in the box'?"], ["DSmu", 10, "From 'Either the missing sock is in the laundry basket or it must be under the bed' together with 'It's not the case that the missing sock must be under the bed', can we infer 'The missing sock is in the laundry basket'?"], ["DSmu", 11, "From 'Either the newspaper is in the driveway or it must be sitting on the porch' together with 'It's not the case that the newspaper must be sitting on the porch', can we infer 'The newspaper is in the driveway'?"], ["DSmu", 12, "From 'Either the jacket is draped over the chair or it must be hanging in the closet' together with 'It's not the case that the jacket must be hanging in the closet', can we infer 'The jacket is draped over the chair'?"], ["DSmu", 13, "From 'Either the toy is in the toy box or it must be sitting on the bookshelf' together with 'It's not the case that the toy must be sitting on the bookshelf', can we infer 'The toy is in the toy box'?"], ["DSmu", 14, "From 'Either the milk is on the counter or it must be chilling in the fridge' together with 'It's not the case that the milk must be chilling in the fridge', can we infer 'The milk is on the counter'?"], ["DSmu", 15, "From 'Either the shoes are in the closet or they must be lined up by the door' together with 'It's not the case that the shoes must be lined up by the door', can we infer 'The shoes are in the closet'?"], ["DSmu", 16, "From 'Either the pen is in my bag or it must be on my desk' together with 'It's not the case that the pen must be on my desk', can we infer 'The pen is in my bag'?"], ["DSmu", 17, "From 'Either the scarf is stuffed in my backpack or it must be draped on the coat rack' together with 'It's not the case that the scarf must be draped on the coat rack', can we infer 'The scarf is stuffed in my backpack'?"], ["DSmu", 18, "From 'Either the notebook is in the drawer or it must be sitting on the nightstand' together with 'It's not the case that the notebook must be sitting on the nightstand', can we infer 'The notebook is in the drawer'?"], ["DSmu", 19, "From 'Either the watch is charging on the dresser or it must be on his wrist' together with 'It's not the case that the watch must be on his wrist', can we infer 'The watch is charging on the dresser'?"], ["DSmu", 20, "From 'Either the sunglasses are in her bag or they must be perched on her head' together with 'It's not the case that the sunglasses must be perched on her head', can we infer 'The sunglasses are in her bag'?"],[
+    "DSmu",
+    21,
+    "From 'Either the file is saved on the desktop or it must be stored in the cloud' together with 'It's not the case that the file must be stored in the cloud', can we infer 'The file is saved on the desktop'?"
+  ],
+  [
+    "DSmu",
+    22,
+    "From 'Either the report is in the inbox or it must be filed in the archive' together with 'It's not the case that the report must be filed in the archive', can we infer 'The report is in the inbox'?"
+  ],
+  [
+    "DSmu",
+    23,
+    "From 'Either the equipment is in the storage room or it must be checked out to a department' together with 'It's not the case that the equipment must be checked out to a department', can we infer 'The equipment is in the storage room'?"
+  ],
+  [
+    "DSmu",
+    24,
+    "From 'Either the student is in the lecture hall or the student must be studying in the library' together with 'It's not the case that the student must be studying in the library', can we infer 'The student is in the lecture hall'?"
+  ],
+  [
+    "DSmu",
+    25,
+    "From 'Either the package is at the distribution center or it must be out for delivery' together with 'It's not the case that the package must be out for delivery', can we infer 'The package is at the distribution center'?"
+  ],
+  [
+    "DSmu",
+    26,
+    "From 'Either the tool is in the toolbox or it must be mounted on the workbench' together with 'It's not the case that the tool must be mounted on the workbench', can we infer 'The tool is in the toolbox'?"
+  ],
+  [
+    "DSmu",
+    27,
+    "From 'Either the data is in the main database or it must be backed up on the external drive' together with 'It's not the case that the data must be backed up on the external drive', can we infer 'The data is in the main database'?"
+  ],
+  [
+    "DSmu",
+    28,
+    "From 'Either the medication is in the medicine cabinet or it must be kept in the refrigerator' together with 'It's not the case that the medication must be kept in the refrigerator', can we infer 'The medication is in the medicine cabinet'?"
+  ],
+  [
+    "DSmu",
+    29,
+    "From 'Either the manuscript is on the editor's desk or it must be submitted to the publisher' together with 'It's not the case that the manuscript must be submitted to the publisher', can we infer 'The manuscript is on the editor's desk'?"
+  ],
+  [
+    "DSmu",
+    30,
+    "From 'Either the specimen is in the laboratory or it must be transported to the research facility' together with 'It's not the case that the specimen must be transported to the research facility', can we infer 'The specimen is in the laboratory'?"
+  ],
+  [
+    "DSmu",
+    31,
+    "From 'Either the vehicle is parked in the garage or it must be parked at the airport' together with 'It's not the case that the vehicle must be parked at the airport', can we infer 'The vehicle is parked in the garage'?"
+  ],
+  [
+    "DSmu",
+    32,
+    "From 'Either the textbook is on the shelf or it must be reserved at the circulation desk' together with 'It's not the case that the textbook must be reserved at the circulation desk', can we infer 'The textbook is on the shelf'?"
+  ],
+  [
+    "DSmu",
+    33,
+    "From 'Either the application is in the pending folder or it must be forwarded to the review committee' together with 'It's not the case that the application must be forwarded to the review committee', can we infer 'The application is in the pending folder'?"
+  ],
+  [
+    "DSmu",
+    34,
+    "From 'Either the concert recording is in the studio or it must be uploaded to the streaming platform' together with 'It's not the case that the concert recording must be uploaded to the streaming platform', can we infer 'The concert recording is in the studio'?"
+  ],
+  [
+    "DSmu",
+    35,
+    "From 'Either the blueprint is in the project files or it must be displayed in the presentation room' together with 'It's not the case that the blueprint must be displayed in the presentation room', can we infer 'The blueprint is in the project files'?"
+  ],
+  [
+    "DSmu",
+    36,
+    "From 'Either the evidence is in the evidence locker or it must be presented in court' together with 'It's not the case that the evidence must be presented in court', can we infer 'The evidence is in the evidence locker'?"
+  ],
+  [
+    "DSmu",
+    37,
+    "From 'Either the painting is in the gallery or it must be on loan to the museum' together with 'It's not the case that the painting must be on loan to the museum', can we infer 'The painting is in the gallery'?"
+  ],
+  [
+    "DSmu",
+    38,
+    "From 'Either the message is in the chat window or it must be archived in the thread history' together with 'It's not the case that the message must be archived in the thread history', can we infer 'The message is in the chat window'?"
+  ],
+  [
+    "DSmu",
+    39,
+    "From 'Either the sample is in the freezer or it must be being analyzed in the lab' together with 'It's not the case that the sample must be being analyzed in the lab', can we infer 'The sample is in the freezer'?"
+  ],
+  [
+    "DSmu",
+    40,
+    "From 'Either the contract is with the legal team or it must be awaiting signature from the client' together with 'It's not the case that the contract must be awaiting signature from the client', can we infer 'The contract is with the legal team'?"
+  ],
+[
+    "DSmu",
+    41,
+    "From 'Either the invoice is in the accounting department or it must be sent to the client' together with 'It's not the case that the invoice must be sent to the client', can we infer 'The invoice is in the accounting department'?"
+  ],
+  [
+    "DSmu",
+    42,
+    "From 'Either the prototype is in the workshop or it must be demonstrated at the conference' together with 'It's not the case that the prototype must be demonstrated at the conference', can we infer 'The prototype is in the workshop'?"
+  ],
+  [
+    "DSmu",
+    43,
+    "From 'Either the patient is in the examination room or the patient must be admitted to the ward' together with 'It's not the case that the patient must be admitted to the ward', can we infer 'The patient is in the examination room'?"
+  ],
+  [
+    "DSmu",
+    44,
+    "From 'Either the book is on loan or it must be reshelved in the stacks' together with 'It's not the case that the book must be reshelved in the stacks', can we infer 'The book is on loan'?"
+  ],
+  [
+    "DSmu",
+    45,
+    "From 'Either the shipment is at the warehouse or it must be in transit to the store' together with 'It's not the case that the shipment must be in transit to the store', can we infer 'The shipment is at the warehouse'?"
+  ],
+  [
+    "DSmu",
+    46,
+    "From 'Either the defendant is in custody or the defendant must be released on bail' together with 'It's not the case that the defendant must be released on bail', can we infer 'The defendant is in custody'?"
+  ],
+  [
+    "DSmu",
+    47,
+    "From 'Either the artwork is in storage or it must be exhibited in the gallery' together with 'It's not the case that the artwork must be exhibited in the gallery', can we infer 'The artwork is in storage'?"
+  ],
+  [
+    "DSmu",
+    48,
+    "From 'Either the grant application is under review or it must be forwarded to the funding committee' together with 'It's not the case that the grant application must be forwarded to the funding committee', can we infer 'The grant application is under review'?"
+  ],
+  [
+    "DSmu",
+    49,
+    "From 'Either the vehicle is in the repair shop or it must be returned to the customer' together with 'It's not the case that the vehicle must be returned to the customer', can we infer 'The vehicle is in the repair shop'?"
+  ],
+  [
+    "DSmu",
+    50,
+    "From 'Either the exam is being graded or it must be distributed to students' together with 'It's not the case that the exam must be distributed to students', can we infer 'The exam is being graded'?"
+  ],
+  [
+    "DSmu",
+    51,
+    "From 'Either the medication is in the pharmacy or it must be dispensed to the patient' together with 'It's not the case that the medication must be dispensed to the patient', can we infer 'The medication is in the pharmacy'?"
+  ],
+  [
+    "DSmu",
+    52,
+    "From 'Either the patent is pending or it must be granted by the office' together with 'It's not the case that the patent must be granted by the office', can we infer 'The patent is pending'?"
+  ],
+  [
+    "DSmu",
+    53,
+    "From 'Either the flight is on the tarmac or it must be airborne' together with 'It's not the case that the flight must be airborne', can we infer 'The flight is on the tarmac'?"
+  ],
+  [
+    "DSmu",
+    54,
+    "From 'Either the research paper is in peer review or it must be published in the journal' together with 'It's not the case that the research paper must be published in the journal', can we infer 'The research paper is in peer review'?"
+  ],
+  [
+    "DSmu",
+    55,
+    "From 'Either the merchandise is in the stockroom or it must be displayed on the sales floor' together with 'It's not the case that the merchandise must be displayed on the sales floor', can we infer 'The merchandise is in the stockroom'?"
+  ],
+  [
+    "DSmu",
+    56,
+    "From 'Either the blood sample is being tested or it must be stored in the freezer' together with 'It's not the case that the blood sample must be stored in the freezer', can we infer 'The blood sample is being tested'?"
+  ],
+  [
+    "DSmu",
+    57,
+    "From 'Either the complaint is being investigated or it must be forwarded to the ombudsman' together with 'It's not the case that the complaint must be forwarded to the ombudsman', can we infer 'The complaint is being investigated'?"
+  ],
+  [
+    "DSmu",
+    58,
+    "From 'Either the satellite is in orbit or it must be launched from the facility' together with 'It's not the case that the satellite must be launched from the facility', can we infer 'The satellite is in orbit'?"
+  ],
+  [
+    "DSmu",
+    59,
+    "From 'Either the thesis is with the advisor or it must be submitted to the graduate school' together with 'It's not the case that the thesis must be submitted to the graduate school', can we infer 'The thesis is with the advisor'?"
+  ],
+  [
+    "DSmu",
+    60,
+    "From 'Either the instrument is in the case or it must be set up on stage' together with 'It's not the case that the instrument must be set up on stage', can we infer 'The instrument is in the case'?"
+  ],
+  [
+    "DSmu",
+    61,
+    "From 'Either the license is being processed or it must be issued to the applicant' together with 'It's not the case that the license must be issued to the applicant', can we infer 'The license is being processed'?"
+  ],
+  [
+    "DSmu",
+    62,
+    "From 'Either the fossil is in the collection or it must be on display at the museum' together with 'It's not the case that the fossil must be on display at the museum', can we infer 'The fossil is in the collection'?"
+  ],
+  [
+    "DSmu",
+    63,
+    "From 'Either the software update is in development or it must be released to users' together with 'It's not the case that the software update must be released to users', can we infer 'The software update is in development'?"
+  ],
+  [
+    "DSmu",
+    64,
+    "From 'Either the transcript is in the registrar's office or it must be mailed to the university' together with 'It's not the case that the transcript must be mailed to the university', can we infer 'The transcript is in the registrar's office'?"
+  ],
+  [
+    "DSmu",
+    65,
+    "From 'Either the evidence is in the lab or it must be presented to the jury' together with 'It's not the case that the evidence must be presented to the jury', can we infer 'The evidence is in the lab'?"
+  ],
+  [
+    "DSmu",
+    66,
+    "From 'Either the employee is on leave or the employee must be working at the office' together with 'It's not the case that the employee must be working at the office', can we infer 'The employee is on leave'?"
+  ],
+  [
+    "DSmu",
+    67,
+    "From 'Either the medication is being manufactured or it must be shipped to distributors' together with 'It's not the case that the medication must be shipped to distributors', can we infer 'The medication is being manufactured'?"
+  ],
+  [
+    "DSmu",
+    68,
+    "From 'Either the proposal is being revised or it must be presented to the board' together with 'It's not the case that the proposal must be presented to the board', can we infer 'The proposal is being revised'?"
+  ],
+  [
+    "DSmu",
+    69,
+    "From 'Either the organ is with the donor or it must be transplanted into the recipient' together with 'It's not the case that the organ must be transplanted into the recipient', can we infer 'The organ is with the donor'?"
+  ],
+  [
+    "DSmu",
+    70,
+    "From 'Either the sensor is in calibration or it must be deployed in the field' together with 'It's not the case that the sensor must be deployed in the field', can we infer 'The sensor is in calibration'?"
+  ],
+  [
+    "DSmu",
+    71,
+    "From 'Either the witness is being prepared or the witness must be called to testify' together with 'It's not the case that the witness must be called to testify', can we infer 'The witness is being prepared'?"
+  ],
+  [
+    "DSmu",
+    72,
+    "From 'Either the vaccine is in clinical trials or it must be distributed to hospitals' together with 'It's not the case that the vaccine must be distributed to hospitals', can we infer 'The vaccine is in clinical trials'?"
+  ],
+  [
+    "DSmu",
+    73,
+    "From 'Either the legislation is in committee or it must be voted on by the full chamber' together with 'It's not the case that the legislation must be voted on by the full chamber', can we infer 'The legislation is in committee'?"
+  ],
+  [
+    "DSmu",
+    74,
+    "From 'Either the code is being debugged or it must be deployed to production' together with 'It's not the case that the code must be deployed to production', can we infer 'The code is being debugged'?"
+  ],
+  [
+    "DSmu",
+    75,
+    "From 'Either the product is in testing or it must be released to market' together with 'It's not the case that the product must be released to market', can we infer 'The product is in testing'?"
+  ],
+  [
+    "DSmu",
+    76,
+    "From 'Either the sculpture is in the studio or it must be installed at the plaza' together with 'It's not the case that the sculpture must be installed at the plaza', can we infer 'The sculpture is in the studio'?"
+  ],
+  [
+    "DSmu",
+    77,
+    "From 'Either the cargo is being loaded or it must be in flight to the destination' together with 'It's not the case that the cargo must be in flight to the destination', can we infer 'The cargo is being loaded'?"
+  ],
+  [
+    "DSmu",
+    78,
+    "From 'Either the dissertation is being written or it must be defended before the committee' together with 'It's not the case that the dissertation must be defended before the committee', can we infer 'The dissertation is being written'?"
+  ],
+  [
+    "DSmu",
+    79,
+    "From 'Either the component is in inventory or it must be installed in the device' together with 'It's not the case that the component must be installed in the device', can we infer 'The component is in inventory'?"
+  ],
+  [
+    "DSmu",
+    80,
+    "From 'Either the permit is being reviewed or it must be approved by the agency' together with 'It's not the case that the permit must be approved by the agency', can we infer 'The permit is being reviewed'?"
+  ]]
