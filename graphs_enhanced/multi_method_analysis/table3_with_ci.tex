@@ -1,0 +1,23 @@
+\begin{table*}[htbp]
+\centering
+\caption{Performance Comparison with 95\% Confidence Intervals}
+\label{tab:results_with_ci}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{lccccccccccccccc}
+\toprule
+Model & \multicolumn{2}{c}{ASd} & \multicolumn{2}{c}{CMP} & \multicolumn{2}{c}{CT} & \multicolumn{2}{c}{DSmi} & \multicolumn{2}{c}{DSmu} & \multicolumn{2}{c}{MTmi} & \multicolumn{2}{c}{MTmu} & Avg \\
+& ZS & LC & ZS & LC & ZS & LC & ZS & LC & ZS & LC & ZS & LC & ZS & LC & +Δ \\
+\midrule
+claude_haiku_4_5_20251001 & 90\tiny{$_{[70,97]}$} & \textbf{100\tiny{$_{[84,100]}$}} & 85\tiny{$_{[64,95]}$} & \textbf{100\tiny{$_{[84,100]}$}} & 0\tiny{$_{[0,16]}$} & \textbf{10\tiny{$_{[3,30]}$}} & 90\tiny{$_{[70,97]}$} & \textbf{100\tiny{$_{[84,100]}$}} & 5\tiny{$_{[1,24]}$} & \textbf{80\tiny{$_{[58,92]}$}} & 70\tiny{$_{[48,85]}$} & \textbf{100\tiny{$_{[84,100]}$}} & 0\tiny{$_{[0,16]}$} & \textbf{100\tiny{$_{[84,100]}$}} & \textbf{+36} \\
+claude_sonnet_4_5_20250929 & 70\tiny{$_{[48,85]}$} & \textbf{95\tiny{$_{[76,99]}$}} & 5\tiny{$_{[1,24]}$} & \textbf{30\tiny{$_{[15,52]}$}} & 0\tiny{$_{[0,16]}$} & \textbf{50\tiny{$_{[30,70]}$}} & 5\tiny{$_{[1,24]}$} & \textbf{100\tiny{$_{[84,100]}$}} & 0\tiny{$_{[0,16]}$} & \textbf{20\tiny{$_{[8,42]}$}} & 0\tiny{$_{[0,16]}$} & \textbf{50\tiny{$_{[30,70]}$}} & 0\tiny{$_{[0,16]}$} & \textbf{95\tiny{$_{[76,99]}$}} & \textbf{+51} \\
+deepseek_reasoner & 70\tiny{$_{[48,85]}$} & \textbf{100\tiny{$_{[84,100]}$}} & 80\tiny{$_{[58,92]}$} & \textbf{100\tiny{$_{[84,100]}$}} & 0\tiny{$_{[0,16]}$} & \textbf{100\tiny{$_{[84,100]}$}} & 35\tiny{$_{[18,57]}$} & \textbf{95\tiny{$_{[76,99]}$}} & 0\tiny{$_{[0,16]}$} & \textbf{95\tiny{$_{[75,99]}$}} & 70\tiny{$_{[48,85]}$} & \textbf{100\tiny{$_{[84,100]}$}} & 0\tiny{$_{[0,16]}$} & \textbf{95\tiny{$_{[76,99]}$}} & \textbf{+61} \\
+gemini_2_0_flash & 95\tiny{$_{[76,99]}$} & \textbf{100\tiny{$_{[84,100]}$}} & 0\tiny{$_{[0,16]}$} & \textbf{100\tiny{$_{[84,100]}$}} & 0\tiny{$_{[0,16]}$} & \textbf{20\tiny{$_{[8,42]}$}} & 15\tiny{$_{[5,36]}$} & \textbf{100\tiny{$_{[84,100]}$}} & 0\tiny{$_{[0,16]}$} & \textbf{95\tiny{$_{[76,99]}$}} & 0\tiny{$_{[0,16]}$} & \textbf{100\tiny{$_{[84,100]}$}} & 0\tiny{$_{[0,16]}$} & \textbf{100\tiny{$_{[84,100]}$}} & \textbf{+72} \\
+gemma3_12b & 100\tiny{$_{[84,100]}$} & 100\tiny{$_{[84,100]}$} & 0\tiny{$_{[0,16]}$} & \textbf{40\tiny{$_{[22,61]}$}} & 0\tiny{$_{[0,16]}$} & \textbf{90\tiny{$_{[70,97]}$}} & 0\tiny{$_{[0,16]}$} & \textbf{95\tiny{$_{[76,99]}$}} & 0\tiny{$_{[0,16]}$} & \textbf{90\tiny{$_{[70,97]}$}} & 0\tiny{$_{[0,16]}$} & \textbf{100\tiny{$_{[84,100]}$}} & 0\tiny{$_{[0,16]}$} & \textbf{75\tiny{$_{[53,89]}$}} & \textbf{+70} \\
+gpt_5_chat_latest & 90\tiny{$_{[70,97]}$} & \textbf{100\tiny{$_{[84,100]}$}} & 5\tiny{$_{[1,24]}$} & \textbf{25\tiny{$_{[11,47]}$}} & 0\tiny{$_{[0,16]}$} & 0\tiny{$_{[0,16]}$} & 40\tiny{$_{[22,61]}$} & \textbf{100\tiny{$_{[84,100]}$}} & 0\tiny{$_{[0,16]}$} & \textbf{100\tiny{$_{[84,100]}$}} & 0\tiny{$_{[0,16]}$} & 0\tiny{$_{[0,16]}$} & 0\tiny{$_{[0,16]}$} & \textbf{100\tiny{$_{[84,100]}$}} & \textbf{+41} \\
+llama3.2_3b & 85\tiny{$_{[64,95]}$} & \textbf{100\tiny{$_{[84,100]}$}} & 0\tiny{$_{[0,16]}$} & \textbf{5\tiny{$_{[1,24]}$}} & 70\tiny{$_{[48,85]}$} & \textbf{100\tiny{$_{[84,100]}$}} & 100\tiny{$_{[84,100]}$} & 100\tiny{$_{[84,100]}$} & 35\tiny{$_{[18,57]}$} & \textbf{95\tiny{$_{[76,99]}$}} & 75\tiny{$_{[53,89]}$} & \textbf{100\tiny{$_{[84,100]}$}} & 45\tiny{$_{[26,66]}$} & \textbf{95\tiny{$_{[76,99]}$}} & \textbf{+26} \\
+phi4_latest & 95\tiny{$_{[76,99]}$} & \textbf{100\tiny{$_{[84,100]}$}} & 0\tiny{$_{[0,16]}$} & \textbf{100\tiny{$_{[84,100]}$}} & 0\tiny{$_{[0,16]}$} & 0\tiny{$_{[0,16]}$} & 10\tiny{$_{[3,30]}$} & \textbf{100\tiny{$_{[84,100]}$}} & 0\tiny{$_{[0,16]}$} & \textbf{95\tiny{$_{[76,99]}$}} & 0\tiny{$_{[0,16]}$} & \textbf{100\tiny{$_{[84,100]}$}} & 0\tiny{$_{[0,16]}$} & \textbf{10\tiny{$_{[3,30]}$}} & \textbf{+57} \\
+qwen2.5_7b & 100\tiny{$_{[84,100]}$} & 100\tiny{$_{[84,100]}$} & 15\tiny{$_{[5,36]}$} & \textbf{95\tiny{$_{[76,99]}$}} & 5\tiny{$_{[1,24]}$} & \textbf{90\tiny{$_{[70,97]}$}} & 85\tiny{$_{[64,95]}$} & \textbf{100\tiny{$_{[84,100]}$}} & 0\tiny{$_{[0,16]}$} & \textbf{75\tiny{$_{[53,89]}$}} & 75\tiny{$_{[53,89]}$} & \textbf{100\tiny{$_{[84,100]}$}} & 0\tiny{$_{[0,16]}$} & \textbf{25\tiny{$_{[11,47]}$}} & \textbf{+44} \\
+\bottomrule
+\end{tabular}
+}
+\end{table*}
