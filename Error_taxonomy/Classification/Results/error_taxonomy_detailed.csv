@@ -1,0 +1,10 @@
+Category,Description,Patterns,Method,Total_Questions,Errors,Correct,Error_Rate,Accuracy,Color
+Modal Negation,"Treating modal denial (""not must""/""might not"") as definitive negation","MTmu, MTmi, DSmu, DSmi",zero-shot,720,551,169,76.52777777777777,23.47222222222222,#e74c3c
+Modal Negation,"Treating modal denial (""not must""/""might not"") as definitive negation","MTmu, MTmi, DSmu, DSmi",chain-of-thought,720,485,235,67.36111111111111,32.63888888888889,#e74c3c
+Modal Negation,"Treating modal denial (""not must""/""might not"") as definitive negation","MTmu, MTmi, DSmu, DSmi",LogiCue,719,118,601,16.411682892906814,83.58831710709318,#e74c3c
+Defeasibility,Treating natural language conditionals as material conditionals,"CT, ASd",zero-shot,360,184,176,51.11111111111111,48.888888888888886,#3498db
+Defeasibility,Treating natural language conditionals as material conditionals,"CT, ASd",chain-of-thought,360,207,153,57.49999999999999,42.5,#3498db
+Defeasibility,Treating natural language conditionals as material conditionals,"CT, ASd",LogiCue,360,89,271,24.72222222222222,75.27777777777777,#3498db
+Probability Preservation,Failing to recognize nested conditionals don't preserve probability,CMP,zero-shot,180,142,38,78.88888888888889,21.11111111111111,#9b59b6
+Probability Preservation,Failing to recognize nested conditionals don't preserve probability,CMP,chain-of-thought,179,108,71,60.33519553072626,39.66480446927375,#9b59b6
+Probability Preservation,Failing to recognize nested conditionals don't preserve probability,CMP,LogiCue,180,68,112,37.77777777777778,62.22222222222222,#9b59b6

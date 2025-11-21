@@ -1,0 +1,4 @@
+Category,Patterns,ZS_Error_Rate,CoT_Error_Rate,LC_Error_Rate,ZS_to_LC_Improvement,CoT_to_LC_Improvement,Total_Questions
+Modal Negation,"MTmu, MTmi, DSmu, DSmi",77%,67%,16%,60 pp,51 pp,720
+Defeasibility,"CT, ASd",51%,57%,25%,26 pp,33 pp,360
+Probability Preservation,CMP,79%,60%,38%,41 pp,23 pp,180
